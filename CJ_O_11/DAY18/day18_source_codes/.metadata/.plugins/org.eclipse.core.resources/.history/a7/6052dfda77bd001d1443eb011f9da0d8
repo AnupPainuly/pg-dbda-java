@@ -1,0 +1,18 @@
+
+class Count extends Thread
+{
+	Count()
+	{
+		System.out.println("Inside count class constructor "+this);
+	}
+}
+
+public class Day18_5 {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

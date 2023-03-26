@@ -1,0 +1,74 @@
+
+// parameterless constructor of super class is called automatically
+// from the parameterless constructor of sub class 
+
+// But  , if we wish to call parameterized constructor of super class
+//from subclass
+//we have to call explicitly by using super()
+// please ensure the argument sequence is maintained 
+
+class Person
+{
+	String name;
+	int age;
+	
+	Person()
+	{
+		System.out.println("Inside Parameterless Const Person");
+		this.name="DEFAULT";
+		this.age=18;
+	}
+	Person(String name,int age)
+	{
+		this.name=name;
+		this.age=age;
+	}
+	
+	void disp()
+	{
+		System.out.println("Name = "+this.name+ " Age = "+this.age);
+	}
+}
+
+class Employee extends Person
+{
+	int empid;
+	int salary;
+	Employee()
+	{
+		System.out.println("Inside Parameterless Const Employee");
+		this.empid=1;
+		this.salary=40000;
+	}
+	Employee(String name,int age,int empid,int salary)
+	{
+		//when we want to give a call to super class
+		// PARAMATRIZED CONSTUCTOR , we use super() keyword 
+		super(name,age);
+		this.empid=empid;
+		this.salary=salary;
+	}
+	void print()
+	{
+		disp();
+		System.out.println("Empid = "+this.empid+" Salary = "+this.salary);
+		
+	}
+}
+
+
+public class Day7_9 {
+
+	public static void main(String[] args) 
+	{
+		Employee e1=new Employee();
+		e1.print();
+		
+		Employee e2=new Employee("Akshita",36,123,80000);
+		e2.print();
+		
+		
+
+	}
+
+}

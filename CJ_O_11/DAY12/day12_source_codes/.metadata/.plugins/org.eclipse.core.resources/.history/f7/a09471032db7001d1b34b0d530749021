@@ -1,0 +1,38 @@
+import java.util.ListIterator;
+import java.util.Vector;
+
+// ListIterator allows to traverse in forward and reverse direction
+public class Day12_6 {
+
+	public static void main(String[] args)
+	{
+		Vector<Integer> vec=new Vector<Integer>();
+		vec.add(10);
+		vec.add(20);
+		vec.add(30);
+		vec.add(40);
+		vec.add(50);
+		System.out.println("Vec = "+vec);
+		Integer element=null;
+		
+		ListIterator<Integer> ltr = vec.listIterator();
+		System.out.println("Printing the elements in Forward Direction ");
+		while(ltr.hasNext())
+		{
+			element = ltr.next();
+			System.out.print(element+" ");
+		}
+		System.out.println("\n Printing the elements in Reverse Direction ");
+		
+		while(ltr.hasPrevious())
+		{
+			element = ltr.previous();
+			System.out.print(element+" ");
+			
+			
+		}
+		
+
+	}
+
+}

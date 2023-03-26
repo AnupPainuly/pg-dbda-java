@@ -1,0 +1,11 @@
+
+public class Day10_8 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Java Programming");
+		Thread.sleep(2000);
+		System.out.println("Topic Exception handling");
+	}
+
+}

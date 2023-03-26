@@ -1,0 +1,15 @@
+
+// create a class Animal (name,color)
+// create a collection of objects
+// convert collection in stream
+//
+public class Day17_4 
+{
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

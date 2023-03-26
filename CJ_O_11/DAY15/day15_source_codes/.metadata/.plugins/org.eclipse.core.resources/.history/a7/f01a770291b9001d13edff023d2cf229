@@ -1,0 +1,21 @@
+// create a user defined class
+// declare private fields
+// declare constructor 
+//declare some methods(public and private)
+
+// reflect the class
+// fetch the following information
+// constructors, methods 
+
+//call methods indirectly
+
+
+
+public class Day15_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,17 @@
+
+class A
+{
+	public static void main(String[] args) {
+		System.out.println("Sunbeam Infotech Pune Karad");
+
+	}
+
+}
+public class Day2_2 {
+
+	public static void main(String[] args) {
+		System.out.println("Sunbeam Infotech Pune Karad");
+
+	}
+
+}

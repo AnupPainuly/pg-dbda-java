@@ -1,0 +1,26 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.constant.ConstantDesc"><rhs name\="java.lang.String"/></lhs></history>
+content_assist_number_of_computers=15
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=22
+semanticHighlighting.abstractMethodInvocation.bold=false
+semanticHighlighting.annotation.bold=false
+semanticHighlighting.class.bold=true
+semanticHighlighting.class.strikethrough=false
+semanticHighlighting.class.underline=false
+semanticHighlighting.deprecatedMember.bold=false
+semanticHighlighting.enum.bold=true
+semanticHighlighting.field.bold=false
+semanticHighlighting.inheritedMethodInvocation.bold=false
+semanticHighlighting.interface.bold=true
+semanticHighlighting.localVariable.bold=false
+semanticHighlighting.method.bold=false
+semanticHighlighting.number.bold=false
+semanticHighlighting.parameterVariable.bold=false
+semanticHighlighting.staticField.bold=false
+semanticHighlighting.staticFinalField.bold=false
+semanticHighlighting.staticMethodInvocation.bold=false
+semanticHighlighting.typeArgument.bold=false
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,13 @@
+
+// Variables
+
+public class Day2_4 {
+
+	public static void main(String[] args) 
+	{
+		int num;
+		System.out.println(num);
+
+	}
+
+}

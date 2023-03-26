@@ -1,0 +1,16 @@
+import java.util.stream.Stream;
+
+public class Day17_3 {
+
+	public static void main(String[] args) 
+	{
+		Integer arr[]= {1,2,3,4,5,6,7,8,9,10};
+		
+		Stream.of(arr)
+					.filter(i -> i%2 ==0)
+					.map(i -> "Java"+i)
+					.map(s -> s.toLowerCase())
+					.forEach(s -> System.out.print(s+" "));
+	}
+
+}

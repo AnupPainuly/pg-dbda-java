@@ -1,0 +1,14 @@
+
+// Variables
+
+public class Day2_4 {
+
+	public static void main(String[] args) 
+	{
+		int num; //variable declaration
+		System.out.println(num); 
+		//The local variable num may not have been initialized
+
+	}
+
+}

@@ -1,0 +1,82 @@
+
+//car is-a vehicle
+class Vehicle
+{	
+	private int vid;
+	private String color;
+	
+	public Vehicle() 
+	{
+		super();
+	}
+
+	public Vehicle(int vid, String color) 
+	{
+		super();
+		this.vid = vid;
+		this.color = color;
+	}
+
+	@Override
+	public String toString() {
+		return "Vehicle [vid=" + vid + ", color=" + color + "]";
+	}
+	
+	
+	
+	public int getVid() {
+		return vid;
+	}
+
+	public void setVid(int vid) {
+		this.vid = vid;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	void disp()
+	{
+		System.out.println("Vehicle ID = "+this.vid+" Color = "+this.color);
+	}
+	
+	
+	
+	
+	
+}
+
+class Car extends Vehicle
+{
+	private int cid;
+	private int price;
+	
+	public Car() 
+	{
+		super();
+	}
+	public Car(int vid, String color,int cid,int price) 
+	{
+		super(vid, color);
+		this.cid=cid;
+		this.price=price;
+	}
+	
+	
+	
+	
+}
+
+public class Day8_1 
+{
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

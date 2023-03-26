@@ -1,0 +1,13 @@
+
+public class Day5_5 {
+
+	public static void main(String[] args) 
+	{
+		int arr1[]=null; //valid 
+		int[] arr2=null; // valid 
+		
+		
+
+	}
+
+}

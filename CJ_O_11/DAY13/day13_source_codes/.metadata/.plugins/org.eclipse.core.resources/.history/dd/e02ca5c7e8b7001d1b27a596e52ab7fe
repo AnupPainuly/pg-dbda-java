@@ -1,0 +1,17 @@
+
+public class Day13_2 {
+
+	public static void main(String[] args)
+	{
+		int n1=15;
+		int n2=15;
+		System.out.println(n1==n2);
+		
+		Integer v1= new Integer(25);
+		Integer v2=new Integer(25);
+		
+		System.out.println(v1==v2);
+
+	}
+
+}

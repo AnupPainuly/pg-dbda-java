@@ -1,0 +1,31 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Day10_5 {
+
+	public static void main(String[] args) 
+	{
+		int num1,num2;
+		int result;
+		Scanner sc=new Scanner(System.in);
+		try
+		{		
+			System.out.println("Enter First Number ");
+			num1 = sc.nextInt();
+		
+			System.out.println("Enter Second Number ");
+			num2 = sc.nextInt();
+		
+			result = num1/num2;
+			System.out.println("Result = "+result);
+		}
+		
+		catch(Exception e) // generic catch block to handle all types of Exception 
+		{
+			System.out.println("please check the details again ");
+		}
+		
+		
+	}
+
+}

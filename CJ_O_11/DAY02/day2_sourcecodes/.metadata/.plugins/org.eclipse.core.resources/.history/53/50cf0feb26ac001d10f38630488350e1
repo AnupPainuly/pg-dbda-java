@@ -1,0 +1,21 @@
+
+// Variables demo
+
+
+/*
+// uninitialized variables are not allowed in java
+
+public class Day2_4 {
+
+	public static void main(String[] args) 
+	{
+		int num; //variable declaration
+		System.out.println(num); 
+		//Compile time error : javac error 
+		//The local variable num may not have been initialized
+
+	}
+
+}
+*/
+

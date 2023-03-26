@@ -1,0 +1,21 @@
+
+public class Day18_9 implements Runnable 
+{
+	@Override
+	public void run()
+	{
+		System.out.println("Inside run method");
+	}
+	public static void main(String[] args) 
+	{
+		Day18_9 dobj=new Day18_9(); 
+		// dobj Runnable Object
+		
+		//Explicitly convert Runnable Object into Thread Object 
+		
+		Thread tobj=new Thread(dobj);
+		tobj.start();
+
+	}
+
+}

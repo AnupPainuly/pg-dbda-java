@@ -1,0 +1,17 @@
+//example of checked exception
+
+
+
+/*
+public class Day10_8 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Java Programming");
+		Thread.sleep(2000); //javac error Unhandled Exception
+		System.out.println("Topic Exception handling");
+	}
+
+}
+
+*/

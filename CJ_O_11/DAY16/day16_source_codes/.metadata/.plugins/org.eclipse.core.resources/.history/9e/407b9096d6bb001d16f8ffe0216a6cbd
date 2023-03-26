@@ -1,0 +1,12 @@
+import java.util.Arrays;
+
+// example of lambda expressions
+
+public class Day16_2 {
+
+	public static void main(String[] args)
+	{
+		List<Integer> l1 = Arrays.asList(1,2,3,4);
+	}
+
+}

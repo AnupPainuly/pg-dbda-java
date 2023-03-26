@@ -1,0 +1,29 @@
+
+class Count implements Runnable
+{
+	Thread th;
+	Count()
+	{
+		System.out.println("Inside Count class");
+		th=new Thread(this);
+		th.start();
+		
+	}
+	public void run()
+	{
+		for(int i=0;i<5;i++)
+		{
+			System.out.println(i);
+			Thread.sleep(500);
+		}
+	}
+}
+
+
+public class Day18_10
+{
+	public static void main(String args[])
+	{
+		Count cobj=new Count();
+	}
+}

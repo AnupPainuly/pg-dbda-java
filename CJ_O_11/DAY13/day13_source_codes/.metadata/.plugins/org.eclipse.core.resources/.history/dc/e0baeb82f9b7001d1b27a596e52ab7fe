@@ -1,0 +1,10 @@
+
+public class Day13_8 {
+
+	public static void main(String[] args)
+	{
+		String path="C:/Users/sunbeam/Desktop/Code/DAY13/Day13_7/src/Day13_7.java";
+		File fobj=new File(path);
+	}
+}
+

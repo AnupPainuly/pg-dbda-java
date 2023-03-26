@@ -1,0 +1,31 @@
+
+
+public class Day15_2 {
+
+	public static void main(String[] args) 
+	{
+		Integer num = new Integer(55);
+		Integer value=new Integer(25);
+
+	}
+
+}
+
+
+
+
+/*
+public class Day15_2 {
+
+	public static void main(String[] args) 
+	{
+		@SuppressWarnings("deprecation")
+		Integer num = new Integer(55);
+		
+		@SuppressWarnings("deprecation")
+		Integer value=new Integer(25);
+
+	}
+
+}
+*/

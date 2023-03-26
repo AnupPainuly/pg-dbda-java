@@ -1,0 +1,54 @@
+// create a user defined class
+// declare private fields
+// declare constructor 
+//declare some methods(public and private)
+
+// reflect the class
+// fetch the following information
+// constructors, methods 
+
+//call methods indirectly
+
+
+class ReflectionDemo
+{
+	private String str; 
+	public ReflectionDemo()
+	{
+		str="CoreJava";
+	}
+	
+	public void method1()
+	{
+		System.out.println("Inside Method1 str = "+str);
+	}
+
+	public void method2(int num)
+	{
+		System.out.println("Inside Method2 Num = "+num);
+	}
+	
+	private void method3()
+	{
+		System.out.println("Inside Method3");
+	}
+	
+	
+}
+
+
+
+public class Day15_8 {
+
+	public static void main(String[] args) 
+	{
+		ReflectionDemo obj=new ReflectionDemo();
+		//reflect the class
+		Class cls = obj.getClass();
+		System.out.println("Name of the class = "+cls.getName());
+		
+		cls.getConstructor();
+
+	}
+
+}

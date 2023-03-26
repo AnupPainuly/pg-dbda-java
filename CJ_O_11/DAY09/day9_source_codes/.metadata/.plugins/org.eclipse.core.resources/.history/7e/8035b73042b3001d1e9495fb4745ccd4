@@ -1,0 +1,17 @@
+
+// Bounded type parameter
+
+class Box<T>
+{
+	
+}
+
+public class Day9_7 {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

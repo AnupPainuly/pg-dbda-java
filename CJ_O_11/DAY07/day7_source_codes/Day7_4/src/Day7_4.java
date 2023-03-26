@@ -1,0 +1,26 @@
+// practice 
+//replace()
+// toLowerCase()
+//toUppserCase()
+
+public class Day7_4 {
+
+	public static void main(String[] args)
+	{
+		String s1="Akshita"; // immutable
+		String s2="Sunbeam";
+		System.out.println("char at 2nd location "+s1.charAt(2));
+		System.out.println("s1 compare to s2 "+s1.compareTo(s2));
+		// ASCII VALUES
+		// A 65  S 83   -18  
+		String s3=s1.concat("Chanchlani");
+		System.out.println("S3 = "+s3);
+		System.out.println("S1 = "+s1+" Length = "+s1.length());
+		System.out.println("s1 trainer "+s1.concat("trainer"));
+		System.out.println("S1 = "+s1);
+		s1=s1.concat(" Java Trainer");
+		System.out.println("S1 = "+s1);
+		
+	}
+
+}

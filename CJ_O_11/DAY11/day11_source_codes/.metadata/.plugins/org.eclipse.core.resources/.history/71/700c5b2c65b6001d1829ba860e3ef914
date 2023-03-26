@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+
+public class Day11_3 
+{
+	public static void main(String args[])
+	{
+		
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		
+		
+		int data[]= {10,20,25,30,35,40,45,50,55,60};
+		
+		
+		System.out.println("Adding Array to ArrayList");
+		
+		for(int i : data)  
+			al.add(i); 
+		System.out.println("Array List = "+al);
+		al.add(4,999);
+		
+		
+	}
+}
+
+		

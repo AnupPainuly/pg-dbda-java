@@ -1,0 +1,43 @@
+
+class Date
+{
+	int dd;
+	int mm;
+	int yy;
+	
+	Date()
+	{
+		
+	}
+
+	@Override
+	public String toString() 
+	{
+		return "Date [dd=" + dd + ", mm=" + mm + ", yy=" + yy + "]";
+	}
+	
+}
+
+class Employee
+{
+	int empid;
+	Date dobj; //field , reference of Date class
+	// ASSOCIATION
+	public Employee() 
+	{
+		
+	}
+	
+	
+	
+}
+
+public class Day4_4 {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

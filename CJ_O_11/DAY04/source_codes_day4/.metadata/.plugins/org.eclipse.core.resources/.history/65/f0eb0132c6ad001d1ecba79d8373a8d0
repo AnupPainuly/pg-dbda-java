@@ -1,0 +1,18 @@
+
+class Parent
+{
+	
+}
+class Derived  
+{
+	
+}
+
+public class Day4_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

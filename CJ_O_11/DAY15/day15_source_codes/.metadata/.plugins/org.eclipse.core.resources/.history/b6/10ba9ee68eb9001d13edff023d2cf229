@@ -1,0 +1,15 @@
+
+//command line argument  args[0] = java.util.Stack
+// reflect it
+
+
+
+public class Day15_6 {
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

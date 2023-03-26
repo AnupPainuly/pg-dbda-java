@@ -1,0 +1,22 @@
+
+public class Day8_1 {
+
+	
+	
+	enum color 
+	{
+		RED,GREEN,BLUE;
+	}
+	Color accept_input()
+	{
+		System.out.println("enter the choice");
+		Color c = sc.nextInt();
+		return c;
+	}
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

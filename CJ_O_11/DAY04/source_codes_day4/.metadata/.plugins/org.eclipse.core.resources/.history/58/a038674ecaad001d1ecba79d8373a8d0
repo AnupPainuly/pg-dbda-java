@@ -1,0 +1,22 @@
+
+public class Day4_13 
+{
+	void sum(int num1,int num2)
+	{
+		System.out.println("Addition = "+(num1+num2));
+	}
+	
+	void sub(int num1,int num2)
+	{
+		System.out.println("Subtraction = "+(num1-num2));
+	}
+	
+	public static void main(String[] args)
+	{
+		Day4_13 obj= new Day4_13();
+		obj.sum(25, 15);
+		obj.sub(50, 30);
+
+	}
+
+}

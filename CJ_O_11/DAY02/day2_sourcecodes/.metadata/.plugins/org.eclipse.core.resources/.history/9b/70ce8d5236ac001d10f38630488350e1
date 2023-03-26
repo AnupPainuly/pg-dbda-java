@@ -1,0 +1,23 @@
+
+public class Day2_7 {
+
+	public static void main(String[] args) 
+	{
+		String str="123";
+		int num1=Integer.parseInt(str);
+		
+		String str1="125.30f";
+		float fval=Float.parseFloat(str1);
+		
+		String str2="50.5";
+		double d = Double.parseDouble(str2);
+		
+		System.out.println("Num1 "+num1);
+		System.out.println("FVal = "+fval);
+		System.out.println("D = "+d);
+		
+		
+
+	}
+
+}

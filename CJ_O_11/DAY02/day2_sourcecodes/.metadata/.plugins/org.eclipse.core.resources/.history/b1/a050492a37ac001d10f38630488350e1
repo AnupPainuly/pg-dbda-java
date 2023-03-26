@@ -1,0 +1,10 @@
+
+public class Day2_8 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Integer = "+Integer.MAX_VALUE+"\t"+Integer.MIN_VALUE);
+
+	}
+
+}

@@ -1,0 +1,31 @@
+class Employee
+{
+	int empid;
+	String name;
+	Employee()
+	{
+		
+	}
+	Employee(int empid,String name)
+	{
+		this.empid=empid;
+		this.name=name;
+	}
+	@Override
+	public String toString() {
+		return "Employee [empid=" + empid + ", name=" + name + "]";
+	}
+	
+}
+public class Day7_2 
+{
+
+	public static void main(String[] args) 
+	{
+		Employee e1=new Employee(123,"akshita");
+		Employee e2=new Employee(123,"akshita");
+		System.out.println("E1 = "+e1+" E2 = "+e2);
+		
+	}
+
+}

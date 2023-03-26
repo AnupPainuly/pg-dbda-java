@@ -1,0 +1,21 @@
+
+public class Day7_1 {
+
+	public static void main(String[] args) 
+	{
+		String s1=new String("Sunbeam");
+		String s2=new String("Sunbeam");
+		String s3=s1;
+		System.out.println("s1==s2 "+(s1==s2)); // ref equality : false 
+		System.out.println("s1.equals(s2) "+s1.equals(s2)); // contents
+		System.out.println("s1 = "+s1.hashCode());
+		System.out.println("s2 = "+s2.hashCode());
+		System.out.println("s1==s3 "+(s1==s3));
+		String s4=new String("Akshita");
+		System.out.println("s2==s4 "+(s2==s4));
+		System.out.println("s2.equals(s4) "+s2.equals(s4));
+		System.out.println("S2 hashcode = "+s2.hashCode());
+		System.out.println("S4 hashcode = "+s4.hashCode());
+	}
+
+}

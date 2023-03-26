@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+
+public class Day12_1 {
+
+	public static void main(String[] args) 
+	{
+		LinkedList<String> list=new LinkedList<String>();
+		list.add("Sunbeam");
+		list.add("Infotech");
+		list.add("Pune");
+		list.add("Karad");
+		System.out.println("List = "+list);
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package p1;
+
+public class Manager 
+{
+	int mid;
+	public Manager()
+	{
+		this.mid=0;
+	}
+	void print()
+	{
+		System.out.println("Inside Manager Disp function "+this.mid);
+	}
+}

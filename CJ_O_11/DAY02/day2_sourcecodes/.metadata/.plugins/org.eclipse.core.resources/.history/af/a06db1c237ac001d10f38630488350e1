@@ -1,0 +1,18 @@
+
+// Narrowing and Widening
+// P to P Conversion 
+
+
+//Narrowing
+//conversion of larger datatype to smaller one
+public class Day2_9 {
+
+	public static void main(String[] args) 
+	{
+		double num1=55;
+		int num2=(int)num1; //double to int 
+		System.out.println("Num1 = "+num1+" Num2 = "+num2);
+
+	}
+
+}

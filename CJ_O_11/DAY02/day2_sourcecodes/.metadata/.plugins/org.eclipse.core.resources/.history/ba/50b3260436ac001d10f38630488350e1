@@ -1,0 +1,13 @@
+
+public class Day2_7 {
+
+	public static void main(String[] args) 
+	{
+		String str="123";
+		int num1=Integer.parseInt(str);
+		
+		
+
+	}
+
+}

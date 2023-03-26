@@ -1,0 +1,52 @@
+//example of checked exception
+
+
+
+public class Day10_8 {
+
+	public static void main(String[] args) 
+	{
+			System.out.println("Java Programming");
+			Thread.sleep(5000); 
+			System.out.println("Topic Exception handling");
+		
+	}
+}
+
+
+/*
+// to handle the checked exception , we have added try and catch block 
+public class Day10_8 {
+
+	public static void main(String[] args) 
+	{
+		try
+		{
+			System.out.println("Java Programming");
+			Thread.sleep(5000); 
+			System.out.println("Topic Exception handling");
+		}
+		catch(InterruptedException e)
+		{
+			System.out.println("Exception is handled");	
+		}
+	}
+}
+
+*/
+
+
+
+/*
+public class Day10_8 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Java Programming");
+		Thread.sleep(2000); //javac error Unhandled Exception
+		System.out.println("Topic Exception handling");
+	}
+
+}
+
+*/

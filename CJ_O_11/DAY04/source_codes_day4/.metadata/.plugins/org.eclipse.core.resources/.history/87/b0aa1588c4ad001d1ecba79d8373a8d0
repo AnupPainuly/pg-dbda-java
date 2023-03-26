@@ -1,0 +1,33 @@
+
+class Test
+{
+	int num1;
+	int num2;
+	
+	Test()
+	{
+		this.num1=5;
+		this.num2=5;
+	}
+	Test(int num1,int num2)
+	{
+		this.num1=num1;
+		this.num2=num2;
+	}
+	void disp()
+	{
+		System.out.println("Num1 = "+this.num1+" Num2 = "+this.num2);
+	}
+	
+}
+
+public class Day4_9 
+{
+
+	public static void main(String[] args) 
+	{
+		Test t1=new Test
+
+	}
+
+}

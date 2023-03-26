@@ -1,0 +1,20 @@
+// Method reference to constructor
+
+interface MyInterface
+{
+	
+}
+
+class Hello
+{
+	
+}
+
+public class Day16_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

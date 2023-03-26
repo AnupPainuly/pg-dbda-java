@@ -1,0 +1,21 @@
+class Employee
+{
+	private String name;
+	private int id;
+	public Employee(String name, int id) 
+	{
+		super();
+		this.name = name;
+		this.id = id;
+	}
+	
+	
+}
+public class Day13_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

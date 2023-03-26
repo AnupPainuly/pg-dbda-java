@@ -1,0 +1,18 @@
+
+//interface Sqaure is having one(single) abstract method 
+
+interface Square
+{
+	public int getArea(int side); // getArea() is an abstract method
+	// public int abstract final getArea(int side)
+}
+
+public class Day16_3 {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Day3_1 {
+
+	public static void main(String[] args)
+	{
+		Integer obj=new Integer(55);
+		// obj ==> Object ==> Integer ==> NP
+		int num = obj.intValue();
+		// num ==> variable ==> int ==> P
+		System.out.println("Num = "+num);
+		
+	}
+
+}

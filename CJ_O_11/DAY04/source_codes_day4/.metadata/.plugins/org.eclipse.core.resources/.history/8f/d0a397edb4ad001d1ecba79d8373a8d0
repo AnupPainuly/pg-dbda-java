@@ -1,0 +1,24 @@
+
+class Date
+{
+	int dd;
+	int mm;
+	int yy;
+	
+	Date()
+	{
+		this.dd=16;
+		this.mm=02;
+		this.yy=2023;
+	}
+}
+
+public class Day4_4 {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

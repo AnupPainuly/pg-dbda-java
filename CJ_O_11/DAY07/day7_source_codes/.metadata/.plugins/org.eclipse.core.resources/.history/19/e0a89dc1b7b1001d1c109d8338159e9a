@@ -1,0 +1,38 @@
+class Product
+{
+	int pid;
+
+	public Product() 
+	{
+		super();
+		
+	}
+
+	public Product(int pid) 
+	{
+		super();
+		this.pid = pid;
+	}
+
+	@Override
+	public String toString() {
+		return "Product [pid=" + pid + "]";
+	}
+	
+	
+}
+class Mobile
+{
+	int price;
+	String mname;
+}
+
+
+public class Day7_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

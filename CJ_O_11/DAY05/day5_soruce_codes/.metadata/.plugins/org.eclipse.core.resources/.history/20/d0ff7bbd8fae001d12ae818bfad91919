@@ -1,0 +1,68 @@
+
+public class Day5_9 {
+
+	public static void main(String[] args)
+	{
+		int a[]=new int[] {500,120,130,240,150};
+		
+		System.out.println("Printing array using normal for loop");
+		for(int i=0;i<5;i++)
+			System.out.print(a[i]+"\t");
+		
+		System.out.println();
+		
+		System.out.println("Printing array using advanced for loop");
+		for(int ele : a)
+			System.out.print(ele +"\t");
+		
+		System.out.println();
+		
+		System.out.println("Printing each element individually");
+		System.out.print(a[0] +"\t");
+		System.out.print(a[1] +"\t");
+		System.out.print(a[2] +"\t");
+		System.out.print(a[3] +"\t");
+		System.out.print(a[4] +"\t");
+		System.out.println();
+		
+		System.out.println("Print the elements using toString() from Arrays class");
+		
+		
+		
+	}
+}
+
+
+/*
+public class Day5_9 {
+
+	public static void main(String[] args)
+	{
+		boolean b1[]=new boolean[3];
+		int a1[]=new int[3];
+		float f1[]=new float[3];
+		double d1[]=new double[3];
+		
+		System.out.println(b1); //[Z@53bd815b  // b1.toString()
+		System.out.println(a1); //[I@5d22bbb7  //a1.toString()
+		System.out.println(f1); // [F@41a4555e  //f1.toString()
+		System.out.println(d1); //[D@3830f1c0   //d1.toString()
+		
+		
+		//P to NP ===> BOXING
+		// P to NP Conversion is done implicetely by compiler
+		// it is done automatically 
+		// AUTO-BOXING 
+		
+		//boolean ==> P type  ===> Boolean  ===> NP type 
+		//int   ==> P type  ===> Integer ===> NP type 
+		//float   ==> P type   ===> Float  ===> NP type 
+		//double  ==> P type    ===> Double  ===> NP type 
+	
+	
+	}
+
+}
+
+
+*/

@@ -1,0 +1,11 @@
+
+public class Day10_7 {
+
+	public static void main(String[] args) 
+	{
+		int num = Integer.parseInt("1234abcd");
+		System.out.println("Num = "+num);
+
+	}
+
+}

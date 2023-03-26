@@ -1,0 +1,11 @@
+
+public class Day7_4 {
+
+	public static void main(String[] args)
+	{
+		String str="Akshita";
+		System.out.println("char at 2nd location "+str.charAt(2));
+
+	}
+
+}

@@ -1,0 +1,44 @@
+
+
+
+public class Day6_2 {
+
+	
+	static void sum(int... arguments) //Variable arguments 
+	{
+		int result = 0;
+		
+	}
+	public static void main(String[] args) 
+	{
+		sum(10,20);
+		sum(10,20,30);
+		
+
+	}
+
+}
+
+
+
+/*
+public class Day6_2 {
+
+	static void sum(int a,int b)
+	{
+		System.out.println("Addition = "+(a+b));
+	}
+	static void sum(int a,int b,int c)
+	{
+		System.out.println("Addition = "+(a+b+c));
+	}
+	public static void main(String[] args) 
+	{
+		sum(10,20);
+		sum(10,20,30);
+		
+
+	}
+
+}
+*/

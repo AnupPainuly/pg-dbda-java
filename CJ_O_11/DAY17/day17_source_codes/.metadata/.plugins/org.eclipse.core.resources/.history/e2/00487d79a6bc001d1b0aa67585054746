@@ -1,0 +1,18 @@
+
+// create a class Animal (name,color)
+// create a collection of objects
+// convert collection in stream
+// filter out animal name whose name is "Tommy"
+// map this animal's Name
+// find out the animal
+// or else 
+public class Day17_4 
+{
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Day5_4 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("PI Value = "+Math.PI);
+		System.out.println("Max value = "+Math.max(45, 25));
+		System.out.println("Min value = "+Math.min(23, 49));
+		System.out.println("Power = "+Math.pow(8, 3));
+		System.out.println("SQRT = "+Math.sqrt(25.0));
+
+	}
+
+}

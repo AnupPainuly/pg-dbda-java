@@ -1,0 +1,87 @@
+// conventionally it is followed that
+// fields of the class are declared as private
+// methods are having package level visibility
+
+
+
+class Employee
+{
+	private int empid;
+	private float salary;
+	private String name;
+	
+	Employee()
+	{
+		this.empid=1;
+		this.salary=25000;
+		this.name="DEFAULT";
+	}
+	
+	Employee(int empid,float salary , String name)
+	{
+		this.empid=empid;
+		this.salary=salary;
+		this.name=name;
+	}
+	
+	void setSalary(float salary)
+	{
+		this.salary=salary;
+	}
+	
+	void disp()
+	{
+		System.out.println("Empid = "+this.empid+" Salary "+this.salary+" Name "+this.name);
+		
+	}
+	
+}
+
+public class Day4_2 {
+
+	public static void main(String[] args) 
+	{
+		Employee eobj=new Employee(12,30000,"Akshita");
+		eobj.disp();
+		//eobj.salary=50000; // not allowed (declared private)
+		
+		//modify the private field in the object (SETTER / MUTATORS)
+		// SETTER is a member function of the class
+		eobj.setSalary(60000);
+		//setSalary() is a method called upon eobj (this==> eobj)
+		eobj.disp();
+		
+		//System.out.println("Employee Id of eobj = "+eobj.empid); // not allowed (private)
+		// if we wish to fetch individual private field from the object
+		// We go for GETTER (INSPECTORS)
+		eobj.getId();
+		
+	}
+	
+}
+
+
+
+/*
+
+public class Day4_2 {
+
+	public static void main(String[] args) 
+	{
+		Employee e1=new Employee();
+		e1.disp();
+		Employee e2=new Employee(123,50000,"emp1");
+		e2.disp();
+		Employee e3=new Employee(456,80000,"emp2");
+		e3.disp();
+		System.out.println("Modifying e2 salary");
+		//e2.salary=2000; //can not modify the field of the class outside its scope 
+		// private
+		e2.disp();
+		System.out.println("Modifying e3 salary");
+		//e3.salary=e2.salary; //salary is private so the error is
+		e3.disp();
+	}
+
+}
+*/

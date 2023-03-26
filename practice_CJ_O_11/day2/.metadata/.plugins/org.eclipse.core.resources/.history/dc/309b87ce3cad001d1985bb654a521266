@@ -1,0 +1,28 @@
+/*
+//local variable should be mandatorily initialized in java
+public class Day2_3 { 
+	public static void main(String[] args) {
+		int num;
+		System.out.println(num);
+	}
+}
+*/
+
+/*
+//the intialized local variables are printed as expected. 
+public class Day2_3 {
+	public static void main(String[] args) {
+		int num=10;
+		System.out.println(num);
+		int val =42;
+		System.out.println(val);
+	}
+}
+*/
+
+public class Day2_3 {
+	public static void main(String[] args) {
+		int num=8401;
+		System.out.println(num);
+	}
+}

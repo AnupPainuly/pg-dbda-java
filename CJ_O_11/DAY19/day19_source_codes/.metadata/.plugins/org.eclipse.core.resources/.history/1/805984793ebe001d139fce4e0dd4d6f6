@@ -1,0 +1,12 @@
+package p1;
+
+public class Day19_8 {
+
+	public static void main(String[] args) 
+	{
+		Account acc = new Account(123,"Saving",45000.0);
+		double amount = 1000.0;
+		
+	}
+
+}

@@ -1,0 +1,57 @@
+import java.util.ArrayList;
+
+
+@SuppressWarnings("unused")
+public class Day15_3 {
+
+	public static void main(String... args) 
+	{
+	}
+}
+
+
+
+/*
+
+@SuppressWarnings("rawtypes")
+
+class Test
+{
+	ArrayList al=null;
+	
+	Test()
+	{
+		al=new ArrayList();
+		
+	}
+}
+
+*/
+
+
+
+/*
+class Test
+{
+	@SuppressWarnings("rawtypes")
+	ArrayList al=null;
+	
+	@SuppressWarnings("rawtypes")
+	Test()
+	{
+		al=new ArrayList();
+		
+	}
+}
+
+public class Day15_3 {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+*/

@@ -1,0 +1,101 @@
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.util.Scanner;
+//requirement
+// create a class Employee class
+// create an object of employee class
+// write the state of the object in the file ==> Serialization 
+// read the state of the object  from the file ==> Deserialization
+
+// ObjectOutputStream and ObjectInputStream
+
+
+class Employee implements Serializable
+{
+	
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	String name;
+	int empid;
+	float salary;
+	
+	public Employee(String name, int empid, float salary) 
+	{
+		super();
+		this.name = name;
+		this.empid = empid;
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", empid=" + empid + ", salary=" + salary + "]";
+	}
+		
+}
+
+
+public class Day14_5 
+{
+	static Scanner sc = new Scanner(System.in);
+	static final String path_name="Demo.dat";
+	
+	private static void writeRecord() throws FileNotFoundException, IOException 
+	{
+		try(ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(new File(path_name))));)
+		{
+			Employee emp = new Employee("Akshita",12,70000);
+			oos.writeObject(emp);
+		}
+	}
+
+	private static void readRecord() throws FileNotFoundException, IOException, ClassNotFoundException 
+	{
+		try(ObjectInputStream ois = new ObjectInputStream(new BufferedInputStream(new FileInputStream(new File(path_name))));)
+		{
+			Employee eobj = (Employee)ois.readObject();
+			System.out.println("Data read from the file");
+			System.out.println(eobj);
+		}
+	}
+
+	private static int menuList()
+	{
+		System.out.println("Enter Choice : 0.Exit 1.Write Record 2.Read Record");
+		return sc.nextInt();
+	}
+	
+	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException
+	{
+		int choice;
+		while((choice=Day14_5.menuList())!=0)
+		{
+			switch(choice)
+			{
+			case 1:
+				Day14_5.writeRecord();
+			break;
+			case 2:
+				Day14_5.readRecord();
+			break;
+			}
+		}
+		
+
+	}
+
+	
+}

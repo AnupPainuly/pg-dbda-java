@@ -1,0 +1,13 @@
+//set does not allow duplicate elements
+
+//HashSet
+public class Day13_3 {
+
+	public static void main(String[] args) 
+	{
+		HashSet<Integer> hs=new HashSet<Integer>();
+		
+
+	}
+
+}

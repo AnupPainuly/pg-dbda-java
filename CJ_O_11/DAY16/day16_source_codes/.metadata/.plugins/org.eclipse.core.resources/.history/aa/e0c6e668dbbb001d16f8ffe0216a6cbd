@@ -1,0 +1,15 @@
+
+interface Square
+{
+	public int getArea(int side);
+}
+
+public class Day16_3 {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

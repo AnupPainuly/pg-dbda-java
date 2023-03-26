@@ -1,0 +1,45 @@
+
+class Person
+{
+	String name;
+	int age;
+	
+	Person()
+	{
+		System.out.println("Inside Parameterless Const Person");
+	}
+	
+	void disp()
+	{
+		System.out.println("Name = "+this.name+ " Age = "+this.age);
+	}
+}
+
+class Employee extends Person
+{
+	int empid;
+	int salary;
+	Employee()
+	{
+		System.out.println("Inside Parameterless Const Employee");
+	}
+	void print()
+	{
+		
+		System.out.println("Empid = "+this.empid+" Salary = "+this.salary);
+		disp();
+	}
+}
+
+
+public class Day7_7 {
+
+	public static void main(String[] args) 
+	{
+		Employee eobj=new Employee();
+		eobj.print();
+		
+
+	}
+
+}

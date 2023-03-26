@@ -1,0 +1,23 @@
+
+class Count implements Runnable
+{
+	Count()
+	{
+		System.out.println("Inside Count class");
+		
+	}
+	public void run()
+	{
+		for(int i=0;i<10;i++)
+			System.out.println(i);
+	}
+}
+
+
+public class Day18_10
+{
+	public static void main(String args[])
+	{
+		
+	}
+}

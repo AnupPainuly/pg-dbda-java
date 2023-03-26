@@ -1,0 +1,52 @@
+import java.util.HashMap;
+import java.util.TreeMap;
+
+//TreeMap
+// unordered
+// unsorted
+//duplicate keys are not allowed
+// it does not allow null keys else NPE
+
+public class Day13_6 {
+
+	public static void main(String[] args) 
+	{
+		TreeMap<Integer,String> tm = new TreeMap<Integer,String>();
+		tm.put(5, "emp1");
+		tm.put(4,"emp2");
+		tm.put(12, "emp3");
+		tm.put(200, "emp4");
+		tm.put(200, "emp5");
+		//tm.put(null,"emp6"); // NPE 
+		System.out.println(tm);
+	}
+}
+
+/*
+//HashMap
+//Unordered
+// Unsorted
+// duplicate keys are not allowed
+// duplicate values are allowed
+// null key is allowed but only once
+// null values are allowed 
+
+public class Day13_6 {
+
+	public static void main(String[] args) 
+	{
+		HashMap<Integer,String> hm = new HashMap<Integer,String>();
+		hm.put(5, "emp1");
+		hm.put(4,"emp2");
+		hm.put(12, "emp3");
+		hm.put(200, "emp4");
+		hm.put(200, "emp5");
+		hm.put(350, "emp5");
+		hm.put(null, "emp6");
+		hm.put(222, null);
+		
+		System.out.println(hm);
+	}
+
+}
+*/

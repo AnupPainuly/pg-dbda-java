@@ -1,0 +1,11 @@
+
+public class Day2_10 {
+
+	public static void main(String[] args)
+	{
+		String str="123";
+		
+
+	}
+
+}

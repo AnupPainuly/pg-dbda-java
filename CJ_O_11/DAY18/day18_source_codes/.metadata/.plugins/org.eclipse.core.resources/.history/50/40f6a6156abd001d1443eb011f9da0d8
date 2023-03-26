@@ -1,0 +1,16 @@
+
+
+
+/*
+public class Day18_1 {
+
+	public static void main(String[] args) 
+	{
+		Thread th = Thread.currentThread();
+		System.out.println(th);
+		//th.toString()
+		//the thread's name, priority, and thread group.
+	}
+
+}
+*/

@@ -1,0 +1,58 @@
+// conventionally it is followed that
+// fields of the class are declared as private
+// methods are having package level visibility
+
+
+
+class Employee
+{
+	private int empid;
+	private float salary;
+	private String name;
+	
+	Employee()
+	{
+		this.empid=1;
+		this.salary=25000;
+		this.name="DEFAULT";
+	}
+	
+	Employee(int empid,float salary , String name)
+	{
+		this.empid=empid;
+		this.salary=salary;
+		this.name=name;
+	}
+	
+	void disp()
+	{
+		System.out.println("Empid = "+this.empid+" Salary "+this.salary+" Name "+this.name);
+		
+	}
+	
+}
+
+
+/*
+
+public class Day4_2 {
+
+	public static void main(String[] args) 
+	{
+		Employee e1=new Employee();
+		e1.disp();
+		Employee e2=new Employee(123,50000,"emp1");
+		e2.disp();
+		Employee e3=new Employee(456,80000,"emp2");
+		e3.disp();
+		System.out.println("Modifying e2 salary");
+		//e2.salary=2000; //can not modify the field of the class outside its scope 
+		// private
+		e2.disp();
+		System.out.println("Modifying e3 salary");
+		//e3.salary=e2.salary; //salary is private so the error is
+		e3.disp();
+	}
+
+}
+*/

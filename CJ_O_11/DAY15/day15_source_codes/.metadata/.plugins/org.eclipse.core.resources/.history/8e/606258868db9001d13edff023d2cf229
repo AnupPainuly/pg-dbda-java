@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+
+
+
+/*
+// .class file is stored in Class reference for reflection
+public class Day15_5 {
+
+	public static void main(String[] args) throws Exception
+	{
+		Class c = Day15_5.class;
+		System.out.println(c.getName());
+	}
+}
+*/
+
+
+/*
+// forName() is used to reflect the class 
+
+public class Day15_5 {
+
+	public static void main(String[] args) throws Exception
+	{
+		Class c = Class.forName("Day15_5");
+		System.out.println(c.getName());
+		
+	
+	}
+
+}
+*/

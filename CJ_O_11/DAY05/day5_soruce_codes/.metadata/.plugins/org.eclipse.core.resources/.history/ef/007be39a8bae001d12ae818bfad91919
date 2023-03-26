@@ -1,0 +1,15 @@
+
+public class Day5_7 {
+
+	public static void main(String[] args)
+	{
+		int a[]=new int[4];
+		int b[]=new int[4];
+		
+		accept_arr(a);
+		accept_arr(b);
+		disp_arr(a);
+		disp_arr(b);
+	}
+
+}

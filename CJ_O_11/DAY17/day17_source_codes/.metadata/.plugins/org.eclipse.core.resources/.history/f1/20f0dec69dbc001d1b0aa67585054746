@@ -1,0 +1,16 @@
+import java.util.Arrays;
+
+//Requirement
+// create a list
+// find the sum of all the elements
+
+
+public class Day17_1 {
+
+	public static void main(String[] args) 
+	{
+		List<Integer> l1=Arrays.asList(10,20,30);
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+class Person
+{
+	void disp()
+	{
+		System.out.println("Inside person class disp");
+	}
+}
+
+class Employee extends Person
+{
+	void disp()
+	{
+		System.out.println("Inside Employee class disp");
+	}
+}
+
+public class Day15_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

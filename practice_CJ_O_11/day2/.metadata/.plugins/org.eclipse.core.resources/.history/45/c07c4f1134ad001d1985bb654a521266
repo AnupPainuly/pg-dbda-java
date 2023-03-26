@@ -1,0 +1,9 @@
+
+class foo {
+	public static void main(String[] args) {
+		System.out.println("Inside the block foo");
+	}
+}
+public class Day2_1 {
+
+}

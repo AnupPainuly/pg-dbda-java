@@ -1,0 +1,23 @@
+
+class Test
+{
+	void m1()
+	{
+		System.out.println("Inside the method m1");
+	}
+	void sum(int n1,int n2)
+	{
+		
+	}
+}
+
+public class Day4_11 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

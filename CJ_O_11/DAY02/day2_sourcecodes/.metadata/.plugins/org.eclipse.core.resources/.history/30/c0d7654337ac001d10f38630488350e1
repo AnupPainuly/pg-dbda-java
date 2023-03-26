@@ -1,0 +1,13 @@
+
+public class Day2_8 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Integer = "+Integer.MAX_VALUE+"\t"+Integer.MIN_VALUE);
+		System.out.println("Float = "+Float.MAX_VALUE+"\t"+Float.MIN_VALUE);
+		System.out.println("Double = "+Double.MAX_VALUE+"\t"+Double.MIN_VALUE);
+		System.out.println("Character = "+(int)(Character.MAX_VALUE)+"\t"+Character.MIN_VALUE);
+
+	}
+
+}

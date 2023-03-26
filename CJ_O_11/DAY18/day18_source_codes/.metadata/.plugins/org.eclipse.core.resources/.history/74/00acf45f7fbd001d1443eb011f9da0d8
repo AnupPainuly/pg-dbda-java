@@ -1,0 +1,11 @@
+
+public class Day18_9 implements Runnable 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

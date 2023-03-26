@@ -1,0 +1,44 @@
+
+class Employee
+{
+	String name;
+	int id;
+	float salary;
+	String desg;
+	
+	Employee() // parameterless constructor / user defined default const
+	{
+		this.name="DEFAULLT";
+		this.id=1;
+		this.salary=25000;
+		this.desg="DEFAULT";
+	}
+	
+	// paramatrized constructor 
+	Employee(String name,int id,float salary , String desg)
+	{
+		this.name=name;
+		this.id=id;
+		this.salary=salary;
+		this.desg=desg;
+	}
+
+	
+	public String toString() {
+		return "Employee [name=" + name + ", desg=" + desg + "]";
+	}
+
+
+}
+
+
+public class Day3_8
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

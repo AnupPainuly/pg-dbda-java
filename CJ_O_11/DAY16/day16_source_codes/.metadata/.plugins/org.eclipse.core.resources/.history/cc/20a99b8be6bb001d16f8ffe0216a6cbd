@@ -1,0 +1,24 @@
+// Method Reference to an instance method of an object
+
+@FunctionalInterface
+interface MyInterface
+{
+	void display();
+}
+
+
+public class Day16_6 
+{
+
+	public void myMethod()
+	{
+		System.out.println("Instance method of the class");
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

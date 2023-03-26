@@ -1,0 +1,16 @@
+
+public class Day9_6 
+{   
+	static void display(element)
+	{
+		System.out.println("Value = "+element);
+	}
+	
+	public static void main(String[] args) 
+	{
+		display(123);
+		display(9.5);
+		display("Sunbeam");
+	}
+
+}

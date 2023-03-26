@@ -1,0 +1,30 @@
+class Student
+{
+	String name;
+	int rn;
+	int marks;
+	
+	void disp()
+	{
+		System.out.println("Name = "+name+" Roll no = "+rn+" Marks = "+marks);
+	}
+
+	
+	public String toString() 
+	{
+		return "Student [rn=" + rn + ", marks=" + marks + "]";
+	}
+	
+	
+}
+
+
+public class Day3_7 {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

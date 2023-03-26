@@ -1,0 +1,21 @@
+
+//convert the string to float int double using parse* method from Integer/Float/Dobule classes.
+public class Day2_6 {
+	public static void main(String[] args) {
+		String str_num="123";
+		int num_integer= Integer.parseInt(str_num);
+		
+		String str_float="45.424f";
+		float num_float=Float.parseFloat(str_float);
+		
+		String str_double="42.4342";
+		double num_double=Double.parseDouble(str_double);
+		
+		String str3="123jsfl3143";
+		int num=Integer.parseInt(str3);
+		System.out.println(num);
+
+		System.out.println(num_integer+" "+num_float+" "+num_double);
+		
+	}
+}

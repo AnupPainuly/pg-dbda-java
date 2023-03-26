@@ -1,0 +1,14 @@
+package p1;
+// Employee class belongs to package p1
+public class Employee 
+{
+	int empid;
+	String name;
+	public Employee() 
+	{
+		this.empid=1;
+		this.name="DEFAULT";
+	}
+	
+	
+}

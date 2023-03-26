@@ -1,0 +1,16 @@
+
+//car is-a vehicle
+class Vehicle
+{	
+	String color;
+	int vid;
+}
+
+public class Day8_1 
+{
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

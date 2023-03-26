@@ -1,0 +1,26 @@
+class Employee
+{
+	String name;
+	int empid;
+	float salary;
+	String designation;
+	String dept;
+	
+	public Employee() 
+	{
+		
+	}
+	
+	
+	
+	
+}
+
+public class Day4_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

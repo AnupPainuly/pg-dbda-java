@@ -1,0 +1,26 @@
+import java.util.LinkedHashSet;
+
+// LinkedHashSet
+// Ordered set (maintains the sequence of data)
+// unsorted
+// no duplicate values are allowed
+//allowing null but only once 
+
+public class Day13_5 {
+
+	public static void main(String[] args) 
+	{
+		LinkedHashSet<String> lhs= new LinkedHashSet<String>();
+		lhs.add("Sunbeam");
+		lhs.add("Pune");
+		lhs.add("Infotech");
+		lhs.add(null);
+		lhs.add("Hinjewadi");
+		lhs.add("Akshita");
+		lhs.add("Sunbeam");
+		lhs.add(null);
+		System.out.println(lhs);
+
+	}
+
+}

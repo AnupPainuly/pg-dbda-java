@@ -1,0 +1,22 @@
+
+@FunctionalInterface
+interface Square
+{
+	public int getArea(int value);
+}
+
+@FunctionalInterface
+interface Cube
+{
+	public int getArea(int value);
+}
+
+public class Day16_4 
+{
+	public static void main(String[] args) 
+	{
+		Sqaure sq =(num) -> {return num*num;}; 
+		Cube cb = (num) -> {return num*num*num;};
+	}
+
+}

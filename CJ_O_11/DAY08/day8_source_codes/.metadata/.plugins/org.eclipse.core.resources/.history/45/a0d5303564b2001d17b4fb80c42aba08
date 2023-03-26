@@ -1,0 +1,40 @@
+
+//car is-a vehicle
+class Vehicle
+{	
+	private int vid;
+	private String color;
+	
+	public Vehicle() 
+	{
+		super();
+	}
+
+	public Vehicle(int vid, String color) 
+	{
+		super();
+		this.vid = vid;
+		this.color = color;
+	}
+	
+	
+	
+	
+	
+}
+
+class Car extends Vehicle
+{
+	private int cid;
+	private int price;
+	
+}
+
+public class Day8_1 
+{
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

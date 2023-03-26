@@ -1,0 +1,43 @@
+// destroy
+
+public class Day19_7 extends Thread
+{
+	Day19_7(ThreadGroup tg,String name,)
+	{
+		super(tg,name);
+		start();
+	}
+
+	public void run()
+	{
+		for(int i=0;i<5;i++)
+		{
+			try
+			{
+				Thread.sleep(1000);
+			}
+			catch(InterruptedException e)
+			{
+				System.out.println(e);
+			}
+			System.out.println(i+" "+this.getName());
+		}
+	}
+	public static void main(String[] args)
+	{
+		ThreadGroup tg1=new ThreadGroup("GROUP1");
+		Day19_7 t1=new Day19_7(tg1,);
+		Day19_7 t2=new Day19_7();
+		Day19_7 t3=new Day19_7();
+		
+		t1.start();
+		t2.start();
+		t1.destroy();
+		t3.start();
+		
+		
+		
+
+	}
+
+}

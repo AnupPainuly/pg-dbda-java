@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+
+public class Day15_5 {
+
+	public static void main(String[] args) throws Exception
+	{
+		Class c = Class.forName("Day15_5");
+		
+	
+	}
+
+}

@@ -1,0 +1,96 @@
+//Constructor Chaining 
+//Calling constructor from other constructor body
+class Employee
+{
+	String name;
+	int id;
+	float salary;
+	String desg;
+	
+	Employee() // parameterless constructor / user defined default const
+	{
+		this("DEFAULT",1,25000,"DEFAULT"); //constructor chaining
+	}
+	
+	// Parameterized constructor 
+	Employee(String name,int id,float salary , String desg)
+	{
+		this.name=name;
+		this.id=id;
+		this.salary=salary;
+		this.desg=desg;
+	}
+
+	
+	public String toString() {
+		return "Employee [name=" + name + ", desg=" + desg + "]";
+	}
+
+
+}
+
+
+public class Day3_8
+{
+
+	public static void main(String[] args) 
+	{
+		Employee e1=new Employee(); //this==> e1 
+		Employee e2=new Employee("Akshita",1,60000.5f,"Trainer"); //this==>e2 
+		System.out.println(e1);
+		System.out.println(e2);
+	}
+
+}
+
+
+
+
+/*
+class Employee
+{
+	String name;
+	int id;
+	float salary;
+	String desg;
+	
+	Employee() // parameterless constructor / user defined default const
+	{
+		this.name="DEFAULLT";
+		this.id=1;
+		this.salary=25000;
+		this.desg="DEFAULT";
+	}
+	
+	// Parameterized constructor 
+	Employee(String name,int id,float salary , String desg)
+	{
+		this.name=name;
+		this.id=id;
+		this.salary=salary;
+		this.desg=desg;
+	}
+
+	
+	public String toString() {
+		return "Employee [name=" + name + ", desg=" + desg + "]";
+	}
+
+
+}
+
+
+public class Day3_8
+{
+
+	public static void main(String[] args) 
+	{
+		Employee e1=new Employee(); //this==> e1 
+		Employee e2=new Employee("Akshita",1,60000.5f,"Trainer"); //this==>e2 
+		System.out.println(e1);
+		System.out.println(e2);
+	}
+
+}
+
+*/

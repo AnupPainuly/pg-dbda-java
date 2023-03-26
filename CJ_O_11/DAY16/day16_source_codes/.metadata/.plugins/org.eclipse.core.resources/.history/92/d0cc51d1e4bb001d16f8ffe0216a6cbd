@@ -1,0 +1,16 @@
+interface Name
+{
+	public string getMyName();
+}
+
+
+public class Day16_5 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

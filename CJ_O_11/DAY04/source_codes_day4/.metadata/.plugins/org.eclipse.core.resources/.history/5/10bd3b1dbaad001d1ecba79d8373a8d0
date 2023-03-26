@@ -1,0 +1,16 @@
+package p1;
+
+import p1.Employee;
+
+public class Day4_5
+{
+
+	public static void main(String[] args) 
+	{
+		Employee e = new Employee();
+		e.accept();
+		e.disp();
+
+	}
+
+}

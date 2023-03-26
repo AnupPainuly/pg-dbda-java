@@ -1,0 +1,9 @@
+//ArrayDeque
+public class Day12_8 {
+
+	public static void main(String[] args) {
+		ArrayDeque<Integer> a1=new ArrayDeque<Integer>();
+		
+	}
+
+}

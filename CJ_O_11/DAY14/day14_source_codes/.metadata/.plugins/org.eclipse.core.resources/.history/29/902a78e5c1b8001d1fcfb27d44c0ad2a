@@ -1,0 +1,87 @@
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.util.Scanner;
+//requirement
+// create a class Employee class
+// create an object of employee class
+// write the state of the object in the file ==> Serialization 
+// read the state of the object  from the file ==> Deserialization
+
+// ObjectOutputStream and ObjectInputStream
+
+
+class Employee 
+{
+	String name;
+	int empid;
+	float salary;
+	
+	public Employee(String name, int empid, float salary) 
+	{
+		super();
+		this.name = name;
+		this.empid = empid;
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", empid=" + empid + ", salary=" + salary + "]";
+	}
+		
+}
+
+
+public class Day14_5 
+{
+	static Scanner sc = new Scanner(System.in);
+	static final String path_name="Demo.dat";
+	
+	private static void writeRecord() throws FileNotFoundException, IOException 
+	{
+		try(ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(new File(path_name))));)
+		{
+			
+		}
+	}
+
+	private static void readRecord() throws FileNotFoundException, IOException 
+	{
+		
+	}
+
+	private static int menuList()
+	{
+		System.out.println("Enter Choice : 0.Exit 1.Write Record 2.Read Record");
+		return sc.nextInt();
+	}
+	
+	public static void main(String[] args) throws FileNotFoundException, IOException
+	{
+		int choice;
+		while((choice=Day14_5.menuList())!=0)
+		{
+			switch(choice)
+			{
+			case 1:
+				Day14_5.writeRecord();
+			break;
+			case 2:
+				Day14_5.readRecord();
+			break;
+			}
+		}
+		
+
+	}
+
+	
+}

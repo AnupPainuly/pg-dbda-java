@@ -1,0 +1,21 @@
+
+class Person
+{
+	String name;
+	int age;
+	
+	Person()
+	{
+		System.out.println("Inside Parameterless Const Person");
+	}
+}
+
+
+public class Day7_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

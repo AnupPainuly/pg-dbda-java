@@ -1,0 +1,11 @@
+// Method reference to static method of a class
+
+public class Day16_9 {
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+class Employee
+{
+	int empid;
+	String name;
+	Employee()
+	{
+		
+	}
+	Employee(int empid, String name)
+	{
+		this.empid=empid;
+		this.name=name;
+	}
+	
+	
+}
+public class Day12_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

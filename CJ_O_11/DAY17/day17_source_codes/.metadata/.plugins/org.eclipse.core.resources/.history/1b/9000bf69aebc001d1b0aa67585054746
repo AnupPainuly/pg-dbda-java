@@ -1,0 +1,16 @@
+import java.util.Arrays;
+
+// Method reference to any arbitrary object
+
+public class Day17_5 
+{
+
+	public static void main(String[] args) 
+	{
+		String[] str= {"akshita","sunbeam","trainer","pune"};
+		Arrays.stream(str).forEach(System.out::println);
+		Arrays.sort(str,String::compareTo);
+		Arrays.stream(str).forEach(System.out::println);
+	}
+
+}

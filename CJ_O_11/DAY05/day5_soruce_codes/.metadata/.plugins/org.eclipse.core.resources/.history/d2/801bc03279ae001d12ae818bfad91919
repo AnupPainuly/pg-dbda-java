@@ -1,0 +1,29 @@
+
+
+class Test
+{
+	private int num1; // non static field 
+	private int num2; // non static field
+	private static int s;  // static field 
+	
+	Test()
+	{
+		
+	}
+	
+	Test(int num1,int num2)
+	{
+		this.num1=num1;
+		this.num2=num2;
+	
+	}
+	
+}
+public class Day5_1
+{
+    public static void main(String args[])
+    {
+        System.out.println();
+    }
+    
+}

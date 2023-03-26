@@ -1,0 +1,16 @@
+// class Test is generic class
+
+
+class Test<T>
+{
+	T obj; //generic field obj 
+	
+}
+public class Day9_4 {
+
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

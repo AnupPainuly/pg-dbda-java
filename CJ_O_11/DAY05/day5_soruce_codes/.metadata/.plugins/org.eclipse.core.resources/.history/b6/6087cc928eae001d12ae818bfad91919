@@ -1,0 +1,36 @@
+
+
+
+/*
+public class Day5_9 {
+
+	public static void main(String[] args)
+	{
+		boolean b1[]=new boolean[3];
+		int a1[]=new int[3];
+		float f1[]=new float[3];
+		double d1[]=new double[3];
+		
+		System.out.println(b1); //[Z@53bd815b  // b1.toString()
+		System.out.println(a1); //[I@5d22bbb7  //a1.toString()
+		System.out.println(f1); // [F@41a4555e  //f1.toString()
+		System.out.println(d1); //[D@3830f1c0   //d1.toString()
+		
+		
+		//P to NP ===> BOXING
+		// P to NP Conversion is done implicetely by compiler
+		// it is done automatically 
+		// AUTO-BOXING 
+		
+		//boolean ==> P type  ===> Boolean  ===> NP type 
+		//int   ==> P type  ===> Integer ===> NP type 
+		//float   ==> P type   ===> Float  ===> NP type 
+		//double  ==> P type    ===> Double  ===> NP type 
+	
+	
+	}
+
+}
+
+
+*/

@@ -1,0 +1,35 @@
+
+class Movie implements Comparable<Movie>
+{
+	double rating;
+	String name;
+	int year;
+
+	@Override
+	public int compareTo(Movie o) 
+	{
+		return this.year-this.compareTo(o);
+	}
+	
+	public Movie(double rating,String name,int year)
+	{
+		this.rating=rating;
+		this.name=name;
+		this.year=year;
+	}
+
+	@Override
+	public String toString() {
+		return "Movie [rating=" + rating + ", name=" + name + ", year=" + year + "]";
+	}
+	
+	
+}
+
+public class Day13_1 {
+
+	public static void main(String[] args) {
+	
+	}
+
+}

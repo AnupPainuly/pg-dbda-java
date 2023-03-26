@@ -1,0 +1,57 @@
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class Day12_1 {
+
+	public static void main(String[] args) 
+	{
+		LinkedList<String> list=new LinkedList<String>();
+		list.add("Sunbeam");
+		list.add("Infotech");
+		list.add("Pune");
+		list.add("Karad");
+		
+		System.out.println("List = "+list);
+		
+		Iterator<String> itr = list.iterator();
+		while(itr.hasNext())
+			System.out.print(itr.next()+"\t");
+		System.out.println();
+		
+	}
+}
+
+
+/*
+public class Day12_1 {
+
+	public static void main(String[] args) 
+	{
+		LinkedList<String> list=new LinkedList<String>();
+		list.add("Sunbeam");
+		list.add("Infotech");
+		list.add("Pune");
+		list.add("Karad");
+		System.out.println("Initial List = "+list);
+		//add a element at first position
+		// insertion of node at the head
+		list.addFirst("Akshita");
+		System.out.println("List = "+list);
+		list.addLast("India");
+		System.out.println("List = "+list);
+		list.add(1,"Chanchlani");
+		System.out.println("List = "+list);
+		
+		System.out.println("Removing the first element = "+list.removeFirst());
+		System.out.println("Removing the last element = "+list.removeLast());
+		System.out.println("Removing the element at index = "+list.remove(0));
+		System.out.println("List = "+list);
+		
+		System.out.println("get = "+list.get(2));
+		
+		
+	}
+
+}
+
+*/

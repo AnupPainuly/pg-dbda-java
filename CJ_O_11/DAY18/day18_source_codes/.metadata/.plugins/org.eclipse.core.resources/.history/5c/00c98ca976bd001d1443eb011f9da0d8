@@ -1,0 +1,14 @@
+
+public class Day18_4 extends Thread
+{
+	public void run()
+	{
+		System.out.println("Inside run method : running thread");
+	}
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

@@ -1,0 +1,26 @@
+class Outer  // Outer.class
+{
+	Outer()
+	{
+		System.out.println("Outer class Parameterless Constructor");
+	}
+	
+	class Inner
+	{
+		Inner()
+		{
+			System.out.println("Inner class constructor");
+		}
+	}
+	
+} //scope of outer class
+
+public class Day9_3 
+{
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

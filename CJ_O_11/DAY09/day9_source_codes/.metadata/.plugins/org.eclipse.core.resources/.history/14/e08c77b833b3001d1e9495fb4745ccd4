@@ -1,0 +1,97 @@
+package p1;
+
+
+
+//requirement:call the m1() from NetworkPrinter class 
+//because m1() is available only in NetworkPrinter class
+
+
+public class Day9_1 {
+
+	public static void main(String[] args)
+	{
+		Printer pr[]= {new NetworkPrinter(),new FilePrinter(),new ConsolePrinter()};
+		
+		
+		for(Printer p : pr)
+		{
+			if(p instanceof NetworkPrinter)
+				p.print("25 pages");
+			else
+				System.out.println("Invalid call");
+		}
+		
+		
+	}
+}
+
+
+
+/*
+// requirement:call the print() from NetworkPrinter class only
+
+
+public class Day9_1 {
+
+	public static void main(String[] args)
+	{
+		Printer pr[]= {new NetworkPrinter(),new FilePrinter(),new ConsolePrinter()};
+		
+		
+		for(Printer p : pr)
+		{
+			if(p instanceof NetworkPrinter)
+				p.print("25 pages");
+			else
+				System.out.println("Invalid call");
+		}
+		
+		
+	}
+}
+
+*/
+
+
+/*
+public class Day9_1 {
+
+	public static void main(String[] args)
+	{
+		Printer pr[]= {new NetworkPrinter(),new FilePrinter(),new ConsolePrinter()};
+		//pr is array of reference
+		//pr[0]=new NetworkPrinter()
+		//pr[1] = new FilePrinter()
+		//pr[2] = new ConsolePrinter()};
+		
+		for(Printer p : pr)
+			p.print("10pages"); // calling print() of all the classes
+		
+		
+	}
+}
+
+*/
+
+
+
+/*
+public class Day9_1 {
+
+	public static void main(String[] args)
+	{
+		NetworkPrinter np = new NetworkPrinter();
+		np.print("10 pages");
+		np.m1();
+		
+		FilePrinter fp=new FilePrinter();
+		fp.print("demo.txt");
+		
+		ConsolePrinter cp = new ConsolePrinter();
+		cp.print("console printing 5pages");
+
+	}
+
+}
+
+*/

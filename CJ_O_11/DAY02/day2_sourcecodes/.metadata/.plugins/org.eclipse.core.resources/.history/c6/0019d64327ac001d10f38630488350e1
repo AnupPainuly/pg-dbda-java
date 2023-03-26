@@ -1,0 +1,57 @@
+
+// Variables demo
+
+
+//N1 = 30  
+// N2 = 25
+public class Day2_4 {
+
+	public static void main(String[] args) 
+	{
+		int n1=30;
+		int n2=25;
+		System.out.println("N1 = "+n1);
+		System.out.println(n2);
+	}
+
+}
+
+
+
+/*
+public class Day2_4 {
+
+	public static void main(String[] args) 
+	{
+		int num; //variable declaration
+		num=35; // variable definition
+		System.out.println(num); 
+		int val = 50; // variable initialization
+		System.out.println(val);
+		
+	}
+
+}
+
+
+*/
+
+
+
+/*
+// uninitialized variables are not allowed in java
+
+public class Day2_4 {
+
+	public static void main(String[] args) 
+	{
+		int num; //variable declaration
+		System.out.println(num); 
+		//Compile time error : javac error 
+		//The local variable num may not have been initialized
+
+	}
+
+}
+*/
+

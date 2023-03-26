@@ -1,0 +1,40 @@
+
+class A
+{
+	
+}
+class B extends A
+{
+	
+}
+public class Day4_10 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+
+
+/*
+class Parent
+{
+	
+}
+class Derived extends Parent // Parent class is non final thats why inheritance is possible 
+{
+	
+}
+
+public class Day4_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+*/

@@ -1,0 +1,41 @@
+class Test
+{
+	private int num1; // non static field 
+	private int num2; // non static field 
+	private static int num3; // static field 
+	
+	public void setNum1(int num1) // non static method / instance / concrete
+	{
+		this.num1 = num1;
+	}
+	
+	public void setNum2(int num2)// non static method / instance / concrete
+	{
+		this.num2 = num2;
+	}
+	public static void setNum3(int num3) //static method / class level
+	{
+		//this.num3 = num3; //javac error 
+		Test.num3=num3;
+	}
+	
+	void printRecord()
+	{
+		System.out.println("Num1 = "+this.num1);
+		System.out.println("Num2 = "+this.num2);
+		System.out.println("Num3 = "+Test.num3);
+	}
+	
+}
+public class Day5_2 {
+
+	public static void main(String[] args) 
+	{
+		Test obj = new Test();
+		obj.setNum1(25);
+		obj.setNum2(35);
+		Test.setNum3(88);
+		
+	}
+
+}

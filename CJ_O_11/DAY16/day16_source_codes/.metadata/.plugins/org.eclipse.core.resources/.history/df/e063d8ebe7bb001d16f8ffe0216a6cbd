@@ -1,0 +1,29 @@
+// Method Reference to an instance method of an object
+
+@FunctionalInterface
+interface MyInterface
+{
+	void display();
+}
+
+
+public class Day16_7 
+{
+
+	public void myMethod()
+	{
+		System.out.println("Instance method of the class");
+	}
+	
+	
+	public static void main(String[] args)
+	{
+		Day16_7 obj=new Day16_7();
+		// Method reference using the object of the class
+		MyInterface ref = obj::myMethod;
+		// calling the method of functional interface
+		ref.display();
+
+	}
+
+}

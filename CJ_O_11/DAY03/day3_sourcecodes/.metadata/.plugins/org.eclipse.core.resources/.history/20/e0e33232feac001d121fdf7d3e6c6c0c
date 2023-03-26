@@ -1,0 +1,61 @@
+//if a class does not have any constructor 
+//then compiler gives a call to DEFAULT CONSTRUCTOR
+//default constructor initialize the fields of the class with default value
+
+class Student
+{
+	String name;
+	int rn;
+	int marks;
+	
+	// parameterless constructor / user defined default constructor
+	Student()
+	{
+		name="DEFAULT";
+		rn=1;
+		marks=45;
+	}
+	
+	void disp()
+	{
+		System.out.println("Name = "+name+" Roll no = "+rn+" Marks = "+marks);
+	}
+
+	
+	public String toString() 
+	{
+		return "Student [rn=" + rn + ", marks=" + marks + "]";
+	}
+	
+	
+}
+
+public class Day3_7 {
+
+	public static void main(String[] args)
+	{
+		
+	}
+}
+
+
+
+
+/*
+
+public class Day3_7 {
+
+	public static void main(String[] args)
+	{
+		Student s1=new Student(); // CALL USER DEFINED DEFAULT CONSTRUCTOR
+		// constructor gets called automatically
+		// IMPLICIT CALLING 
+		
+		s1.disp(); //disp() is called upon s1 object 
+		// EXPLICIT CALLING 
+		System.out.println(s1);
+
+	}
+
+}
+*/

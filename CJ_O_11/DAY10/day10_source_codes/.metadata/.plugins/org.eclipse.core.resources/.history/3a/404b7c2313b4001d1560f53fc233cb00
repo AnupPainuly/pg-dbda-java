@@ -1,0 +1,24 @@
+package p1;
+
+import java.util.Scanner;
+
+// age > 0 and age<=100 VALID else invalid 
+// InvalidAgeException ==> user defined 
+
+public class Day10_12 
+{
+
+	static validate(int age)
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Age :");
+		int age = sc.nextInt();
+		validate(age);
+		
+	}
+
+}

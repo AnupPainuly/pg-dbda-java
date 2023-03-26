@@ -1,0 +1,15 @@
+class Machine
+{
+	public void start()
+	{
+		System.out.println("Machine started");
+	}
+}
+public class Day8_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

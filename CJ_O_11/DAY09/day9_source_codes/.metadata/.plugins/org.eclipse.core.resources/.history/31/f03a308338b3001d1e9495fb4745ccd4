@@ -1,0 +1,19 @@
+class Outer  
+{
+	Outer()
+	{
+		System.out.println("Outer class Parameterless Constructor");
+	}
+	
+	
+	
+} //scope of outer class
+public class Day9_3 
+{
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

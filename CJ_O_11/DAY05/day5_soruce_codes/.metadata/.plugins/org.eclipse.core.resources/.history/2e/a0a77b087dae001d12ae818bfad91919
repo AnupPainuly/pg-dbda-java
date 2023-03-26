@@ -1,0 +1,30 @@
+class Test
+{
+	private int num1; // non static field 
+	private int num2; // non static field 
+	private static int num3; // static field 
+	
+	public void setNum1(int num1) // non static method / instance / concrete
+	{
+		this.num1 = num1;
+	}
+	
+	public void setNum2(int num2)
+	{
+		this.num2 = num2;
+	}
+	public static void setNum3(int num3) 
+	{
+		Test.num3 = num3;
+	}
+	
+	
+}
+public class Day5_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

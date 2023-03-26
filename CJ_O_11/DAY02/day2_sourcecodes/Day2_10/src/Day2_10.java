@@ -1,0 +1,32 @@
+
+// Converting  Primitive to Non Primitive ==> BOXING
+// P to NP Conversion
+public class Day2_10 {
+
+	public static void main(String[] args)
+	{
+		int num=80; //num ===> Primitive type
+		String str = Integer.toString(num); // str ===> Non primitive 
+		System.out.println("Str = "+str);
+	}
+}
+
+
+
+/*
+// Converting Non Primitive to Primitive ==> UNBOXING
+// NP to P Conversion
+
+public class Day2_10 {
+
+	public static void main(String[] args)
+	{
+		String str="123"; // str ==> NP type 
+		int num = Integer.parseInt(str);   // num ===> P Type 
+		System.out.println("Num = "+num);
+		
+
+	}
+
+}
+*/

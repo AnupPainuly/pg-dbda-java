@@ -1,0 +1,85 @@
+import java.util.Scanner;
+
+class Employee
+{
+	String name;  //field 
+	int id;  //field 
+	int salary; // field 
+	
+	void accept()  // method (non static)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Name");
+		name = sc.next();
+		System.out.println("Enter ID ");
+		id=sc.nextInt();
+		System.out.println("Enter Salary ");
+		salary = sc.nextInt();
+	}
+	void disp() // method (non static)
+	{
+		System.out.println("Name = "+name+" ID = "+id+" Salary = "+salary);
+	}
+}
+
+
+public class Day3_4
+{
+	public static void main(String[] args)
+	{
+		Employee e=null; // reference 
+		e.disp();
+	}
+}
+
+	
+
+
+
+/*
+public class Day3_4
+{
+	public static void main(String[] args)
+	{
+		Employee e; // e is a reference // local variable
+		// local variable e may not have been initialized 
+		e.disp(); // javac error 
+	}
+}
+*/
+
+
+
+
+
+/*
+public class Day3_4
+{
+	public static void main(String[] args)
+	{
+		Employee e; // e is a reference declaration 
+		e=new Employee(); // e is object (initialize)
+		// e is declared within main(), e is local variable 
+		// e is object  
+		//e is method local variable 
+		e.disp(); // null   0   0
+		
+	}
+}
+*/
+
+
+/*
+public class Day3_4
+{
+
+	public static void main(String[] args)
+	{
+		Employee eobj=new Employee(); //eobj is an object of Employee
+		eobj.accept(); //accept() method is called upon eobj 
+		eobj.disp();  // disp() method is called upon eobj 
+		
+	}
+
+}
+*/

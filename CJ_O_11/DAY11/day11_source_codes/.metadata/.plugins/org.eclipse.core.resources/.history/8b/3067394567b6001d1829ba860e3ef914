@@ -1,0 +1,13 @@
+//create and display AL using functions
+// AL of different types 
+
+public class Day11_4 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> intList=new ArrayList<Integer>();
+		
+
+	}
+
+}

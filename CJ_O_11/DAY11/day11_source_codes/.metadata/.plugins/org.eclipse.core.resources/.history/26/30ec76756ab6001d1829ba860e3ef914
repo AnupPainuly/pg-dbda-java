@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+
+public class Day11_8 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> a1=new ArrayList<Integer>();
+		ArrayList<Integer> a2=new ArrayList<Integer>();
+		ArrayList<Integer> a3=a1; // reference copy 
+		a1.add(10);
+		a1.add(20);
+		a1.add(30);
+		a2.add(4);
+		a2.add(5);
+		a2.add(6);
+		System.out.println("A1 = "+a1+" Hashcode = "+a1.hashCode());
+		System.out.println("A2 = "+a2+" Hashcode = "+a2.hashCode());
+		System.out.println("A3 = "+a3+" Hashcode = "+a3.hashCode());
+		
+		ArrayList<Integer> a4 =a1.clone();
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package p1;
+// Employee class belongs to package p1
+public class Employee 
+{
+	int empid;
+	String name;
+	public Employee() 
+	{
+		this.empid=1;
+		this.name="DEFAULT";
+	}
+	public Employee(int empid, String name) 
+	{
+		
+		this.empid = empid;
+		this.name = name;
+	}
+	
+	void accept()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Empid = ");
+		this.empid=sc.nextInt();
+		
+	}
+	
+	
+	
+}

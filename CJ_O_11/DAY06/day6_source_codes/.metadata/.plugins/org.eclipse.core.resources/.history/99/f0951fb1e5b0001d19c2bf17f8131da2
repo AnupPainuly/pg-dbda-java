@@ -1,0 +1,22 @@
+
+enum Day
+{
+	
+	SUN(1,"Sunday"),MON(2,"Monday"),TUE(3,"Tuesday");
+	int dayNumber;
+	String dayName;
+	Day(int dayNumber,String dayName)
+	{
+		this.dayNumber=dayNumber;
+		this.dayName=dayName;
+	}
+}
+
+public class Day6_4 {
+
+	public static void main(String[] args)
+	{
+	
+	}
+
+}

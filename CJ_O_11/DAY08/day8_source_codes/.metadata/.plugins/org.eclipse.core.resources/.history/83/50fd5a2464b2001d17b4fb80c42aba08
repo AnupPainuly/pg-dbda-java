@@ -1,0 +1,26 @@
+
+//car is-a vehicle
+class Vehicle
+{	
+	private int vid;
+	private String color;
+	
+	
+	
+}
+
+class Car extends Vehicle
+{
+	private int cid;
+	private int price;
+	
+}
+
+public class Day8_1 
+{
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

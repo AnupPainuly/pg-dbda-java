@@ -1,0 +1,17 @@
+
+
+class Test
+{
+	private int num1; // non static field 
+	private int num2; // non static field
+	private static int s;  // static field 
+	
+}
+public class Day5_1
+{
+    public static void main(String args[])
+    {
+        System.out.println();
+    }
+    
+}

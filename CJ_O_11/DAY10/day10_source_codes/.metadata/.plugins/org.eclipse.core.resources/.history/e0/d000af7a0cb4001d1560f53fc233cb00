@@ -1,0 +1,12 @@
+
+public class Day10_9 {
+
+	public static void main(String[] args)
+	{
+		int result = 25/5;
+		System.out.println("Result = "+result);
+		
+
+	}
+
+}

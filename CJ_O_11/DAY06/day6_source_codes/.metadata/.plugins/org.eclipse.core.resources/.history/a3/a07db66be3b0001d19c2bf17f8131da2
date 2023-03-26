@@ -1,0 +1,19 @@
+
+//package ==> default package
+// Day6_4 ===> type ==> class
+// Color ==> type ===> enum
+ 
+enum Color
+{
+	RED,GREEN,BLUE  //RED , GREEN and BLUE are enum constants
+}
+
+public class Day6_4 {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

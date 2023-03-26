@@ -1,0 +1,37 @@
+
+class Employee
+{
+	int empid;
+	float salary;
+	String name;
+	
+	Employee()
+	{
+		this.empid=1;
+		this.salary=25000;
+		this.name="DEFAULT";
+	}
+	
+	Employee(int empid,float salary , String name)
+	{
+		this.empid=empid;
+		this.salary=salary;
+		this.name=name;
+	}
+	
+	void disp()
+	{
+		System.out.println("Empid = "+this.empid+" Salary "+this.salary+" Name "+this.name);
+		
+	}
+	
+}
+
+public class Day4_1 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

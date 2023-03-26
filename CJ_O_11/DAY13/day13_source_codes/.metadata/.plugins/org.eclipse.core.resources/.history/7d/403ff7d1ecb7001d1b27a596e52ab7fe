@@ -1,0 +1,17 @@
+import java.util.LinkedHashSet;
+
+public class Day13_5 {
+
+	public static void main(String[] args) 
+	{
+		LinkedHashSet<String> lhs= new LinkedHashSet<String>();
+		lhs.add("Sunbeam");
+		lhs.add("Pune");
+		lhs.add("Infotech");
+		lhs.add("Hinjewadi");
+		lhs.add("Akshita");
+		
+
+	}
+
+}

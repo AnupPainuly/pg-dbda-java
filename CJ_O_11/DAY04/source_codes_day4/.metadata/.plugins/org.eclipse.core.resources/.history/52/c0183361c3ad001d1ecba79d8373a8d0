@@ -1,0 +1,22 @@
+
+class Circle
+{
+	//final float PI = 3.14f; // final field 
+	final float PI;
+	void print()
+	{
+		System.out.println("PI = "+PI);
+	}
+	
+}
+
+public class Day4_8 {
+
+	public static void main(String[] args) 
+	{
+		Circle cobj = new Circle();
+		cobj.print();
+
+	}
+
+}

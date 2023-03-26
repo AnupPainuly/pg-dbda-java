@@ -1,0 +1,14 @@
+
+// take two number values from user using command line argument
+// display its addition
+
+
+public class Day2_6 {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

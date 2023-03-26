@@ -1,0 +1,11 @@
+
+public class Day9_2 {
+
+	public static void main(String[] args) 
+	{
+		String str=new String("Sunbeam");
+		System.out.println("Str  "+str);
+
+	}
+
+}

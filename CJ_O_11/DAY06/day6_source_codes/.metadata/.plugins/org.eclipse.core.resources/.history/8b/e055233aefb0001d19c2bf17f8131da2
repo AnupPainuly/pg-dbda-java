@@ -1,0 +1,15 @@
+
+public class Day6_5
+{
+	public static void main(String[] args) 
+	{
+		String s1="hello"; // literal string object
+		String s2=new String(s1); // s2 non literal string
+		String s3="hello"; // s3 is literal string
+		String s4 = "Hello"; // s4 ===> literal string
+		System.out.println("s1==s2"+s1==s2); //false 
+		System.out.println("s1.equals s2 = "+s1.equals(s2));
+		System.out.println("s1==s3 "+s1==s3);
+	}
+
+}

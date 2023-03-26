@@ -1,0 +1,60 @@
+class Product
+{
+	int pid;
+
+	public Product() 
+	{
+		super();
+		
+	}
+
+	public Product(int pid) 
+	{
+		super();
+		this.pid = pid;
+	}
+
+	@Override
+	public String toString() {
+		return "Product [pid=" + pid + "]";
+	}
+	
+	
+}
+class Mobile extends Product
+{
+	int price;
+	String mname;
+	
+	public Mobile()
+	{
+		super();
+		
+	}
+	public Mobile(int pid,int price,String mname) 
+	{
+		super(pid);
+		this.price=price;
+		this.mname=mname;
+	}
+	
+	@Override
+	public String toString() {
+		return "Mobile [price=" + price + ", mname=" + mname + " "+super.toString() "]";
+	}
+	
+	
+	
+}
+
+
+public class Day7_10 {
+
+	public static void main(String[] args) 
+	{
+		Mobile m1=new Mobile();
+		System.out.println(m1);
+
+	}
+
+}

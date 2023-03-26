@@ -1,0 +1,9 @@
+package p1;
+
+
+@interface Author 
+{
+	String firstName();
+	String lastName();
+
+}

@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+class Test
+{
+	ArrayList al=null;
+	Test()
+	{
+		al=new ArrayList();
+		
+	}
+}
+
+public class Day15_3 {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

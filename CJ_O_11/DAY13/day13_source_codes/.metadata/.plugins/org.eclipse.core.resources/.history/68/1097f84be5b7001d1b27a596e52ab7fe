@@ -1,0 +1,19 @@
+
+class Movie implements Comparable<Movie>
+{
+
+	@Override
+	public int compareTo(Movie o) 
+	{
+		return this.year-this.compareTo(o);
+	}
+	
+}
+
+public class Day13_1 {
+
+	public static void main(String[] args) {
+	
+	}
+
+}

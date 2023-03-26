@@ -1,0 +1,29 @@
+import java.util.ListIterator;
+import java.util.Vector;
+
+public class Day12_6 {
+
+	public static void main(String[] args)
+	{
+		Vector<Integer> vec=new Vector<Integer>();
+		vec.add(10);
+		vec.add(20);
+		vec.add(30);
+		vec.add(40);
+		vec.add(50);
+		System.out.println("Vec = "+vec);
+		Integer element=null;
+		
+		ListIterator<Integer> ltr = vec.listIterator();
+		
+		while(ltr.hasNext())
+		{
+			element = ltr.next();
+			System.out.print(element+" ");
+		}
+		System.out.println(ltr.next());
+		
+
+	}
+
+}

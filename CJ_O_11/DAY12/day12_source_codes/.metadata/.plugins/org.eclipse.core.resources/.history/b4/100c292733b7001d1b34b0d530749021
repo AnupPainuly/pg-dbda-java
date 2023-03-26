@@ -1,0 +1,49 @@
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+
+public class Day12_7 {
+
+	public static void main(String[] args) 
+	{
+		//Queue<String> pq = new PriorityQueue<String>(); // OK // UPCASTING
+		
+		PriorityQueue<String> pq = new PriorityQueue<String>();
+		pq.add("Akshita");
+		pq.add("Trainer");
+		pq.add("Sunbeam");
+		
+		
+		System.out.println("PQ = "+pq);
+		System.out.println("Element = "+pq.element()); // front element 
+		pq.remove();
+		pq.remove();
+		pq.remove();
+		System.out.println("PQ = "+pq);
+		pq.remove();
+		
+	}
+
+}
+
+
+/*
+public class Day12_7 {
+
+	public static void main(String[] args) 
+	{
+		//Queue<String> pq = new PriorityQueue<String>(); // OK // UPCASTING
+		
+		PriorityQueue<String> pq = new PriorityQueue<String>();
+		pq.add("Akshita");
+		pq.add("Trainer");
+		pq.add("Sunbeam");
+		pq.add("CoreJava");
+		
+		System.out.println("PQ = "+pq);
+		System.out.println("Element = "+pq.element()); // front element 
+		
+	}
+
+}
+*/

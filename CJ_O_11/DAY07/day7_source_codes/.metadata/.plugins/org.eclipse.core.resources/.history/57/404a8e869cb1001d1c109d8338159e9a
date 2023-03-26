@@ -1,0 +1,28 @@
+class Employee
+{
+	int empid;
+	String name;
+	Employee()
+	{
+		
+	}
+	Employee(int empid,String name)
+	{
+		this.empid=empid;
+		this.name=name;
+	}
+	@Override
+	public String toString() {
+		return "Employee [empid=" + empid + ", name=" + name + "]";
+	}
+	
+}
+public class Day7_2 
+{
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

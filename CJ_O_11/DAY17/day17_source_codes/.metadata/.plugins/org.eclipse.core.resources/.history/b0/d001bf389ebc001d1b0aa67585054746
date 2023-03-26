@@ -1,0 +1,19 @@
+import java.util.Arrays;
+import java.util.List;
+
+//Requirement
+// create a list
+// find the sqaures and sum of all the elements
+
+
+public class Day17_1 {
+
+	public static void main(String[] args) 
+	{
+		List<Integer> l1=Arrays.asList(10,20,30);
+		int sum = l1.stream().map(x -> x*x).reduce((x,y) -> x+y).get();
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+
+interface Square
+{
+	public int getArea(int value);
+}
+
+interface cube
+{
+	public int getArea(int value);
+}
+
+public class Day16_4 {
+
+}

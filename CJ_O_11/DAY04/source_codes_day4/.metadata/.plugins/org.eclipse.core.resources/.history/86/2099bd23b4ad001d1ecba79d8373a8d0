@@ -1,0 +1,83 @@
+class Employee
+{
+	String name;
+	int empid;
+	float salary;
+	String designation;
+	String dept;
+	
+	public Employee() 
+	{
+		this("DEFAULT",1,0.0f,"DEFAULT","DEFAULT");
+	}
+
+	public Employee(String name, int empid, float salary, String designation, String dept) 
+	{
+		
+		this.name = name;
+		this.empid = empid;
+		this.salary = salary;
+		this.designation = designation;
+		this.dept = dept;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getEmpid() {
+		return empid;
+	}
+
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
+
+	public float getSalary() {
+		return salary;
+	}
+
+	public void setSalary(float salary) {
+		this.salary = salary;
+	}
+
+	public String getDesignation() {
+		return designation;
+	}
+
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+
+	public String getDept() {
+		return dept;
+	}
+
+	public void setDept(String dept) {
+		this.dept = dept;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", designation=" + designation + ", dept=" + dept + "]";
+	}
+	
+	
+	
+	
+	
+}
+
+public class Day4_3 {
+
+	public static void main(String[] args) 
+	{
+		Employee eobj=new Employee("Akshita",123,70000.5f,"Trainer","TCT");
+
+	}
+
+}

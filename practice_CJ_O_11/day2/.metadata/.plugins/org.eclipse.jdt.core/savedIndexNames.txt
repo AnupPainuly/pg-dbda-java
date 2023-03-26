@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/home/darkstar/lang/java/cj-0-11/day2/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index

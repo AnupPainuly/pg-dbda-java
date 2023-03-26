@@ -1,0 +1,16 @@
+
+enum Day
+{
+	int dayNumber;
+	int dayName;
+	SUN(1,"Sunday"),MON(2,"Monday"),TUE(3,"Tuesday");
+}
+
+public class Day6_4 {
+
+	public static void main(String[] args)
+	{
+	
+	}
+
+}

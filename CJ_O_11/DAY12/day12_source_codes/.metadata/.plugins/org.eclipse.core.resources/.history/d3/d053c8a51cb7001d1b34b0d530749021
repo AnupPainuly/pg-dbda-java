@@ -1,0 +1,24 @@
+import java.util.LinkedList;
+
+public class Day12_1 {
+
+	public static void main(String[] args) 
+	{
+		LinkedList<String> list=new LinkedList<String>();
+		list.add("Sunbeam");
+		list.add("Infotech");
+		list.add("Pune");
+		list.add("Karad");
+		System.out.println("Initial List = "+list);
+		//add a element at first position
+		// insertion of node at the head
+		list.addFirst("Akshita");
+		System.out.println("List = "+list);
+		list.addLast("India");
+		System.out.println("List = "+list);
+		list.add(1,"Chanchlani");
+		
+		
+	}
+
+}

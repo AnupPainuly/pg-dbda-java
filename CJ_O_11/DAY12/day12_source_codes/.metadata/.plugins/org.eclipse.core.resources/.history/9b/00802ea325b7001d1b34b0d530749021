@@ -1,0 +1,95 @@
+import java.util.Vector;
+
+
+public class Day12_4 {
+
+	public static void main(String[] args)
+	{
+		Vector<Integer> vec = new Vector<Integer>(5,2);
+		System.out.println("Empty ? "+vec.isEmpty());
+		System.out.println("Size = "+vec.size()+" Capacity = "+vec.capacity());
+		
+		vec.add(1);
+		vec.add(2);
+		vec.add(3);
+		vec.add(4);
+	
+		System.out.println("Vec = "+vec);
+		System.out.println("Size = "+vec.size()+" Capacity = "+vec.capacity());
+		
+		vec.add(5);
+	
+		System.out.println("Vec = "+vec);
+		System.out.println("Size = "+vec.size()+" Capacity = "+vec.capacity());
+		
+	}
+}
+
+
+
+
+/*
+public class Day12_4 {
+
+	public static void main(String[] args)
+	{
+		Vector<Integer> vec = new Vector<Integer>(5);
+		System.out.println("Empty ? "+vec.isEmpty());
+		System.out.println("Size = "+vec.size()+" Capacity = "+vec.capacity());
+		
+		vec.add(1);
+		vec.add(2);
+		vec.add(3);
+		vec.add(4);
+		System.out.println("Empty ? "+vec.isEmpty());
+		System.out.println("Vec = "+vec);
+		System.out.println("Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add(5);
+		vec.add(6);
+		System.out.println("Vec = "+vec);
+		System.out.println("Size = "+vec.size()+" Capacity = "+vec.capacity());
+		
+	}
+}
+*/
+
+
+
+/*
+public class Day12_4 {
+
+	public static void main(String[] args)
+	{
+		Vector<Integer> vec = new Vector<Integer>();
+		System.out.println("Empty ? "+vec.isEmpty());
+		System.out.println("Size = "+vec.size()+" Capacity = "+vec.capacity());
+		
+		vec.add(1);
+		vec.add(2);
+		vec.add(3);
+		vec.add(4);
+		vec.add(5);
+		System.out.println("Vec = "+vec);
+		System.out.println("Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add(6);
+		vec.add(7);
+		vec.add(8);
+		vec.add(9);
+		
+		System.out.println("Vec = "+vec);
+		System.out.println("Size = "+vec.size()+" Capacity = "+vec.capacity());
+		vec.add(10);
+		System.out.println("Vec = "+vec);
+		System.out.println("Size = "+vec.size()+" Capacity = "+vec.capacity());
+		
+		vec.add(11);
+		System.out.println("Vec = "+vec);
+		System.out.println("Size = "+vec.size()+" Capacity = "+vec.capacity());
+		
+		
+		
+		
+	}
+
+}
+*/

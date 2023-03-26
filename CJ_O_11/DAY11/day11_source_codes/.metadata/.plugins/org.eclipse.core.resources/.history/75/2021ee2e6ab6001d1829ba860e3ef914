@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+public class Day11_8 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> a1=new ArrayList<Integer>();
+		ArrayList<Integer> a2=new ArrayList<Integer>();
+		ArrayList<Integer> a3=a1;
+		System.out.println("A1 = "+a1+"Hashcode = "+a1.hashCode());
+		System.out.println("A2 = "+a2+"Hashcode = "+a2.hashCode());
+		System.out.println("A3 = "+a3+"Hashcode = "+a3.hashCode());
+		
+		
+		
+
+	}
+
+}

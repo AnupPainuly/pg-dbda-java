@@ -1,0 +1,20 @@
+
+class Demo implements Runnable
+{
+	Thread t;
+	String str;
+	Demo(String str)
+	{
+		this.str=str;
+	}
+	
+}
+
+public class Day19_1 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

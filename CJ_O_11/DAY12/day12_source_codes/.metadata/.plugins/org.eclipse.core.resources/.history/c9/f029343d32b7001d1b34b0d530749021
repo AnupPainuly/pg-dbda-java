@@ -1,0 +1,11 @@
+
+public class Day12_7 {
+
+	public static void main(String[] args) 
+	{
+		Queue<String> pq = new Queue<String>();
+		
+
+	}
+
+}

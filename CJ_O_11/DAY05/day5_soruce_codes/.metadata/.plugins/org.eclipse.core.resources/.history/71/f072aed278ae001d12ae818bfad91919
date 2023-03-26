@@ -1,0 +1,17 @@
+
+
+class Test
+{
+	private int num1;
+	private int num2;
+	private static int s;
+	
+}
+public class Day5_1
+{
+    public static void main(String args[])
+    {
+        System.out.println();
+    }
+    
+}

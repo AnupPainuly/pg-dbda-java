@@ -1,0 +1,8 @@
+
+public class Day2_3 { 
+	public static void main(String[] args) {
+		int num=10;
+		System.out.println("hello world");
+	}
+
+}

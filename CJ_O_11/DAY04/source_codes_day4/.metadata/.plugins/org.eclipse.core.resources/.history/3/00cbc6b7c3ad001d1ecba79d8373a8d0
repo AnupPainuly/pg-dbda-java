@@ -1,0 +1,33 @@
+
+class Circle
+{
+	//final float PI = 3.14f; // final / constant field 
+	final float PI;
+	int radius; // non constant field 
+	
+	Circle()
+	{
+		this.radius=5;
+	}
+	Circle(int radius)
+	{
+		this.radius=radius;
+	}
+	
+	void print()
+	{
+		System.out.println("PI = "+PI);
+	}
+	
+}
+
+public class Day4_8 {
+
+	public static void main(String[] args) 
+	{
+		Circle cobj = new Circle();
+		cobj.print();
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package p1;
+
+// age > 0 and age<=100 VALID else invalid 
+// InvalidAgeException ==> user defined 
+public class Day10_12 {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class Day18_2 {
+
+	public static void main(String[] args) 
+	{
+		Thread th=Thread.currentThread();
+		System.out.println("Th = "+th);
+		System.out.println("Priority of th = "+th.getPriority());
+		th.setPriority(2);
+		System.out.println("Priority of th = "+th.getPriority());
+		
+		
+
+	}
+
+}

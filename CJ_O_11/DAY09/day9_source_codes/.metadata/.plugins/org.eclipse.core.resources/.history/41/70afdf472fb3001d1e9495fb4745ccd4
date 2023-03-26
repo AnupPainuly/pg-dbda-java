@@ -1,0 +1,10 @@
+package p1;
+
+public interface Printer 
+{
+	//for every data member inside interface
+	// javac adds public static final 
+	
+	double DATA = 1234.56;
+	void print(String msg);
+}
