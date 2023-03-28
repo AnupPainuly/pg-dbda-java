@@ -1,0 +1,58 @@
+//Objective
+//Mandatory assignment
+//The java program should run till user enters "quit" or any other option than add or sub or mult or div.
+//Prompt user to enter the input operation : (add|sub|mult|div) & 2 numbers(double)
+//Display the result of the operation.
+//Use Scanner for accepting all inputs from user. 
+//Hint : use switch-case
+
+import java.util.Scanner;
+
+class CalculatorMenu {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		boolean flag=true;
+		while(flag) {
+			int num1=0,num2=0;
+			System.out.println("enter the operation 1.add|2.sub|3.div|4.mul|5.quit: ");
+			System.out.println("=====================================");
+            System.out.println("           Calculator V1.0         ");
+            System.out.println("=====================================");
+			String operation = sc.next();
+			switch(operation){
+			case "add" : 
+				System.out.print("enter the numbers: ");
+				num1 = sc.nextInt();
+				num2 = sc.nextInt();
+				System.out.println("Addition: "+(num1+num2));
+				break;
+			case "sub" : 
+				System.out.print("enter the numbers: ");
+				num1 = sc.nextInt();
+				num2 = sc.nextInt();
+				System.out.println("substraction: "+(num1-num2));
+				break;
+			case "div" : 
+				System.out.print("enter the numbers: ");
+				num1 = sc.nextInt();
+				num2 = sc.nextInt();
+				System.out.println("division: "+(num1/num2));
+				break;
+			case "mul" : 
+				System.out.print("enter the numbers: ");
+				num1 = sc.nextInt();
+				num2 = sc.nextInt();
+				System.out.println("multiplication: "+(num1*num2));
+				break;
+			case "quit" :
+				System.out.println("Program terminated.");
+				flag=false;
+				break;
+			default :
+				System.out.println("Invalid input.");
+
+			}//end of switch
+		}//end of while
+		sc.close();
+	}//end of main
+}//end of pub class

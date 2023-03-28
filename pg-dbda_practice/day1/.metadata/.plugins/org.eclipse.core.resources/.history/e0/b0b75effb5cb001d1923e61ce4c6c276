@@ -1,0 +1,45 @@
+//Objective
+//Mandatory assignment
+//The java program should run till user enters "quit" or any other option than add or sub or mult or div.
+//Prompt user to enter the input operation : (add|sub|mult|div) & 2 numbers(double)
+//Display the result of the operation.
+//Use Scanner for accepting all inputs from user. 
+//Hint : use switch-case
+ 
+import java.util.Scanner;
+
+class CalculatorMenu {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int keepgoing=1;
+		do {
+		System.out.print("enter the numbers: ");
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+		System.out.println("enter the operation add|sub|div|mul|quit: ");
+		String operation = sc.next();
+		switch(operation){
+		case "add" : 
+			System.out.println("Addition: "+(num1+num2));
+			break;
+		case "sub" : 
+			System.out.println("substraction: "+(num1-num2));
+			break;
+		case "div" : 
+			System.out.println("division: "+(num1/num2));
+			break;
+		case "mul" : 
+			System.out.println("multiplication: "+(num1*num2));
+			break;
+		case "quit" :
+			System.out.println("Program terminated.");
+			keepgoing=0;
+			break;
+		default :
+			System.out.println("Invalid input.");
+			
+		}
+		} while(keepgoing==1);
+	}
+
+}

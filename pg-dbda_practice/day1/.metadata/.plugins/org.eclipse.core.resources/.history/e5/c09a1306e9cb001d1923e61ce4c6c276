@@ -1,0 +1,27 @@
+//Assignment:day1-#8
+//8.Accept range of numbers (begin value & end value) from user , using scanner.
+//Print all even nos from the range
+//Try writing the functionality of checking for even number in a method n call it from main
+
+import java.util.Scanner;
+public class EvenOrNot {
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.print("enter the starting range: ");
+	int start=sc.nextInt();
+	System.out.print("enter the starting range: ");
+	int end=sc.nextInt();
+	for(int i=start;i<=end;i++) {
+		System.out.println("The even numbers form the give range:");
+		System.out.println(isEven(i));
+		
+	}
+	}//end of main 
+	public static boolean isEven(int n) {
+		if(n%2!=0) {
+			return false;
+		}
+		return true;
+	}
+
+}//end of class EvenorNot

@@ -1,0 +1,682 @@
+!SESSION 2023-03-26 13:39:03.822 -----------------------------------------------
+eclipse.buildId=4.17.2.202301310704
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-26 13:39:04.944
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-26 13:39:34.525
+!MESSAGE Logback config file: /home/darkstar/lang/java/pg-dbda_practice/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-26 13:39:36.435
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-26 13:39:36.435
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-26 13:39:36.435
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2023-03-26 13:39:40.041
+!MESSAGE Downloading and installing wakatime-cli...
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2023-03-26 13:39:44.531
+!MESSAGE Finished downloading and installing wakatime-cli.
+!SESSION 2023-03-26 13:40:20.431 -----------------------------------------------
+eclipse.buildId=4.17.2.202301310704
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-26 13:40:21.498
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-26 13:40:25.467
+!MESSAGE Logback config file: /home/darkstar/lang/java/pg-dbda_practice/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-26 13:40:27.425
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-26 13:40:27.425
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-26 13:40:27.425
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2023-03-26 13:40:31.411
+!MESSAGE wakatime-cli is up to date.
+
+!ENTRY org.eclipse.ui 2 2 2023-03-26 13:43:08.140
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 13:43:37.516
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:03:29.606
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:03:59.628
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:10:02.876
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:18:05.351
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.ui 4 0 2023-03-26 14:40:38.707
+!MESSAGE Unhandled event loop exception
+!STACK 0
+net.sourceforge.vrapper.platform.VrapperPlatformException: Failed to get location info for V1104
+	at net.sourceforge.vrapper.eclipse.platform.EclipseCursorAndSelection.updateStickyColumn(EclipseCursorAndSelection.java:936)
+	at net.sourceforge.vrapper.eclipse.platform.EclipseCursorAndSelection.access$2(EclipseCursorAndSelection.java:930)
+	at net.sourceforge.vrapper.eclipse.platform.EclipseCursorAndSelection$StickyColumnUpdater.caretMoved(EclipseCursorAndSelection.java:556)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:101)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1555)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1538)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1316)
+	at org.eclipse.swt.custom.StyledText.setCaretOffsets(StyledText.java:8599)
+	at org.eclipse.swt.custom.StyledText.handleTextChanging(StyledText.java:6142)
+	at org.eclipse.swt.custom.StyledText$5.textChanging(StyledText.java:5402)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextChanging(DefaultDocumentAdapter.java:360)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentAboutToBeChanged(DefaultDocumentAdapter.java:277)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:637)
+	at org.eclipse.jface.text.projection.ProjectionDocument.delayedFireDocumentAboutToBeChanged(ProjectionDocument.java:762)
+	at org.eclipse.jface.text.projection.ProjectionDocument.masterDocumentAboutToBeChanged(ProjectionDocument.java:723)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.fireDocumentEvent(ProjectionDocumentManager.java:124)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.documentAboutToBeChanged(ProjectionDocumentManager.java:137)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:645)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1091)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(SynchronizableDocument.java:176)
+	at org.eclipse.text.undo.DocumentUndoManager$UndoableTextChange.undoTextChange(DocumentUndoManager.java:148)
+	at org.eclipse.text.undo.DocumentUndoManager$UndoableCompoundTextChange.undo(DocumentUndoManager.java:473)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.doUndo(DefaultOperationHistory.java:407)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.undo(DefaultOperationHistory.java:1149)
+	at org.eclipse.text.undo.DocumentUndoManager.undo(DocumentUndoManager.java:851)
+	at org.eclipse.jface.text.TextViewerUndoManager.undo(TextViewerUndoManager.java:367)
+	at net.sourceforge.vrapper.eclipse.platform.EclipseHistoryService.undo(EclipseHistoryService.java:80)
+	at net.sourceforge.vrapper.vim.commands.UndoCommand.execute(UndoCommand.java:12)
+	at net.sourceforge.vrapper.vim.modes.CommandBasedMode.executeCommand(CommandBasedMode.java:265)
+	at net.sourceforge.vrapper.vim.modes.CommandBasedMode.handleKey(CommandBasedMode.java:319)
+	at net.sourceforge.vrapper.vim.DefaultEditorAdaptor.handleKey0(DefaultEditorAdaptor.java:832)
+	at net.sourceforge.vrapper.vim.DefaultEditorAdaptor.handleKeyOffRecord(DefaultEditorAdaptor.java:467)
+	at net.sourceforge.vrapper.vim.DefaultEditorAdaptor.handleKey(DefaultEditorAdaptor.java:442)
+	at net.sourceforge.vrapper.eclipse.interceptor.VimInputInterceptorFactory$VimInputInterceptor.verifyKey(VimInputInterceptorFactory.java:354)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1555)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1538)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1316)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1555)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1538)
+	at org.eclipse.swt.widgets.Widget.sendIMKeyEvent(Widget.java:1639)
+	at org.eclipse.swt.widgets.Control.gtk_commit(Control.java:3607)
+	at org.eclipse.swt.widgets.Canvas.gtk_commit(Canvas.java:168)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2493)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6834)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6163)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_im_context_filter_keypress(Native Method)
+	at org.eclipse.swt.widgets.Control.filterKey(Control.java:2813)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:4006)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2507)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6834)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6163)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1597)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4514)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4899)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.graphics.TextLayout._getOffset(TextLayout.java:1206)
+	at org.eclipse.swt.graphics.TextLayout.getPreviousOffset(TextLayout.java:1411)
+	at org.eclipse.swt.custom.StyledText.getPointAtOffset(StyledText.java:5223)
+	at org.eclipse.swt.custom.StyledText.getLocationAtOffset(StyledText.java:4023)
+	at net.sourceforge.vrapper.eclipse.platform.EclipseCursorAndSelection.updateStickyColumn(EclipseCursorAndSelection.java:934)
+	... 90 more
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:52:35.345
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:59:07.680
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:59:07.696
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:59:07.712
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:59:07.726
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:59:07.740
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:59:07.754
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 14:59:07.767
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 15:01:16.860
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 18:24:51.193
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 18:25:32.508
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 18:26:21.714
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 18:29:57.049
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 18:29:57.064
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 18:34:27.942
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 20:23:50.869
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 20:25:22.452
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 20:28:42.883
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 20:33:17.386
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 20:47:32.838
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 20:52:48.868
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2023-03-26 21:01:43.396
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-03-26 21:15:53.850
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+import java.util.Scanner;
+class CompoundInterest {
+	public static double ciCalc() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the principle");
+		double p=sc.nextDouble();
+		System.out.println("enter the interest rate");
+		double r=sc.nextDouble();
+		System.out.println("enter the time period in years");
+		double n=sc.nextDouble();
+		double result=int(p*Math.pow((1+(r/100)),n);
+		sc.close();
+		return result;
+
+	}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:561)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-03-26 21:15:53.851
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:561)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-03-26 21:15:53.851
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:561)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-03-26 21:15:53.999
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+import java.util.Scanner;
+class CompoundInterest {
+	public static double ciCalc() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the principle");
+		double p=sc.nextDouble();
+		System.out.println("enter the interest rate");
+		double r=sc.nextDouble();
+		System.out.println("enter the time period in years");
+		double n=sc.nextDouble();
+		double result=int(p*Math.pow((1+(r/100)),n);
+		sc.close();
+		return result;
+
+	}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2023-03-26 21:15:54.000
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2023-03-26 21:15:54.001
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-26 21:16:48.958
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:833)

@@ -1,0 +1,37 @@
+//Accept two numbers form the use and swap then. Display the swapped values.
+import java.util.Scanner;
+public class NumberSwap {
+	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("enter the two numbers: ");
+//		int a=sc.nextInt();
+//		int b=sc.nextInt();
+//		System.out.println("The numbers before swap:"+"a="+a+" "+"b="+b);
+		//number swap not using third variable
+//		a=a+b;
+//		b=a-b;
+//		a=a-b;
+		//number swap using third variable
+//		int tmp=0;
+//		tmp=a;
+//		a=b;
+//		b=tmp;
+//		System.out.println("The numbers after swap:"+"a="+a+" "+"b="+b);
+//		sc.close();
+		swap();//funciton call
+	}//end of main
+	public static void swap() {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("enter the two numbers: ");
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		System.out.println("The numbers before swap:"+"a="+a+" "+"b="+b);
+		//number swap not using third variable
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("The numbers after swap:"+"a="+a+" "+"b="+b);
+		sc.close();
+	}//end of function swap
+
+}//end of class

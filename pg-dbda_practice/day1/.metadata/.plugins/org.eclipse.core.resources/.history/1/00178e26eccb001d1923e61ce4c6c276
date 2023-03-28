@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class CompoundInterest {
+	public static int ciCalc() {
+		int result=0;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the principle");
+		int p=sc.nextInt();
+		System.out.println("enter the interest rate");
+		int r=sc.nextInt();
+		System.out.println("enter the time period in years");
+		int n=sc.nextInt();
+		result=(int)Math.pow(p*(1+(r/100)),n);
+		sc.close();
+		return result;
+
+	}
+
+}

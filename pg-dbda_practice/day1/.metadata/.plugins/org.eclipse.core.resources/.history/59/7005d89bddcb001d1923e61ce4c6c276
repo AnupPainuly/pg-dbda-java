@@ -1,0 +1,34 @@
+//n = 8,
+//1 divides 8
+//2 divides 8
+//4 divides 8
+//8 divides 8
+//so count is 4, therefore 8 is not prime.
+//
+//n = 5,
+//1 divides 5
+//5 divides 5
+//so count is 2, therefore 5 is prime.
+import java.util.Scanner;
+class PrimeOrNot {
+	public static void main(String[] args) {
+		Prime();
+	}
+	public static void Prime() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the number");
+		int num= sc.nextInt();
+		int count=0;
+		for(int i=1;i<=num;i++) {
+			if(num%i==0) {
+				count=count+i;
+				if(count==2) {
+					System.out.println("prime");
+				}
+				else {
+					System.out.println("not prime");
+				}
+			}
+		}
+	}//end of main
+}
