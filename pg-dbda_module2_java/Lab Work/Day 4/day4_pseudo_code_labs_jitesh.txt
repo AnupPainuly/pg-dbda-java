@@ -1,0 +1,38 @@
+1. Accept 'n' from user 
+2. Point2D[] point2D = new Point2D[n];
+
+3. for (int i =0; i<n;i++){
+
+point2D[i] = new Point2D(scanner.nextInt(),
+						 scanner.nextInt());
+
+}						 
+
+4. for( Point2D p:point2D){
+	sysout (p.getPointDetails());
+}
+
+5. 
+
+Accept Array Index 1 - 0
+Accept Array Index 2 - 1
+
+
+
+point2D[0] = point2D[1]
+
+point2D[0] == point2D[1]
+
+point2D[userIndex1].isEqual(point2D[userIndex2]);
+
+
+boolean isEqual(Point2D otherObject){
+	if(this.x == otherObject.x){
+		if(this.y == otherObject.y){
+			return true;
+		}
+	}
+	return false;
+}
+
+
