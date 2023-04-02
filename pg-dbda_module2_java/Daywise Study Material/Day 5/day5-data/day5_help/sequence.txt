@@ -1,0 +1,199 @@
+Today's Topics 
+
+Dynamic init of arrays
+Multi dimensional arrays 
+
+Inheritance n  Polymorphism
+
+
+
+
+Revise
+What will be the mem pic for this?
+Emp[] emps=new Emp[10];////Method Area : [Lcom.app.core.Emp; , 1 array obj  -- CP , len=10, index0 ---9 : null , array ref --> emps
+emps[0]=new Emp(.....);
+emps[1]=new Emp(...);
+
+Regarding inheritance 
+What is it ?
+Important part of OOP
+
+Represents which relationship between classes ? IS-A
+Classes in Upper hierarchy : super class / base class / parent
+Classes in  lower hierarchy : sub class / derived / child
+key word : extends
+Any examples : 
+Person <---- Student,Faculty,Emp , Accountant.....
+BankAccount <--- SavingAccount , CurrentAccount , LoanAccount <--- HomeLoan ,....
+
+Universal super class : java.lang.Object
+
+
+Supported Types of Inheritance in Java :  single , multi level , hierarchial 
+
+
+Multiple inheritance : not supported
+
+constr invocation in inheritance hierarchy : refer to diag.
+
+super keyword
+super keyword usages
+1. To invoke super cls constr (eg : super(fn,ln))
+2. To access super cls's accessible members (eg : super.getDetails()) from a subclass , in case of same names
+
+Important statements
+Sub class IS A super class + something more(addtional data members + methods) + something modified(behaviour : methods : method overriding)
+----------------------
+
+How to fetch details of person , student n faculty ?
+
+
+
+Java API
+java.lang.Object : universal super class of all java classes
+public String toString() : what does it return : F.Q className @ hex hashCode
+What's the need of overriding toString : to replace "F.Q className @ hex hashCode"  by actual state of the object (non static data members=instance vars)
+
+Create a tester with direct n indirect referencing .
+
+To apply the concepts in a practical scenario : Develop Event Organizer app
+
+Prompt user for max no of participants (Student n Faculty)
+sop("Enter hall capacity");
+Create suitable data structure , to hold participant details.
+Person[] participants=new Person[sc.nextInt()];//100
+int counter=0;
+Menu :
+1 : Register Student
+sop("enter student dtls");
+ participants[counter++]=new Student(....);//up casting!
+break;
+
+2. : Register Faculty
+participants[counter++]=new Faculty(....);//up casting!
+break;
+
+
+3. Display all participant details 
+//{s1,s2,f1,s3,s4,s5,f2,null....null}
+for(Person p : participants) //p=participants[0],p=participants[1]......
+ if(p != null)
+  sop(p);
+4. : Display specific participant details
+i/p : seat no
+int index=sc.nextInt()-1;
+sop(participants[index]);//toString
+
+
+
+0. : Exit
+
+
+1.  Upcasting
+
+IMPORTANT : Javac resolves method binding by type of the reference BUT JVM resolves it by type of the instance it's referring to .
+
+----------------------Completed So far-------------------
+
+Solve :
+Fruit : super class
+public String taste()
+{
+ return "No specific taste";
+}
+Mango extends Fruit
+{
+ override : to return "sweet"
+@Override
+public String taste()
+{
+  return "sweet";
+}
+}
+Orange extends Fruit
+{
+ override : to return "sour"
++ additional func
+public void juice()
+{
+  sop("extracting orange juice");
+}
+}
+Alphonso extends Mango
+{
+   override : to return"sweet n juicy"
+}
+Apple extends Fruit 
+{
+   override : to return"sweet n sour"
+   //jam 
+   public void jam() 
+   {
+      sop("creating apple jam...");
+   }
+}
+
+
+Solve
+What will happen ?
+Fruit f=new Mango();
+sop(f.taste());
+
+f=new Orange(...);
+sop(f.taste());
+
+
+f=new Alphonso();
+f.taste();
+
+
+Object o=f;
+sop(o.taste());
+
+Solve :
+
+Fruit f=new Orange();
+f.taste();
+f.juice();
+
+
+f=new Apple();
+f.juice();
+
+
+
+Enter polymorphism formally : refer to readme inheritance polymorphism
+
+Refer to method overloading vs method overriding
+
+Identify the rules.
+Examples of method overloading : print / println methods
+
+Example of Method overriding
+eg : toString
+
+Java Annotation
+eg : @Override annotation
+
+With simple example : Object , Person , Student,Faculty
+2. Event Organizer app
+ Suitable data structure : array of references : 
+Type of array : Person[]
+
+Menu :
+1 : Register Student
+2. : Register Faculty
+3. Display all participant details 
+100. : Exit
+
+4. Display specific participant details
+i/p : seat no
+o/p : complete details of the specified person
+
+Objective : Executing sub class specific functionality.
+Add a new method "study" in Student class & "teach" in Faculty class
+Option 5 : User i/p : seat no
+Check if seat no is valid .
+In case of valid seat no  --- If it's a Student , invoke study method , if it's a Faculty invoke teach method
+
+

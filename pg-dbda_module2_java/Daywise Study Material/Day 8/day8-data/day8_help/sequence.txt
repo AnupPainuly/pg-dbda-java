@@ -1,0 +1,139 @@
+Today's Topics
+
+Revise 
+Exception handling 
+Continue to
+try-with-resources
+Custom Exceptions
+String Handling in Java
+Java 8 Date Time Handling 
+Wrapper classes in Java
+Enumeration in Java
+
+
+
+What is exception ? --Run time error , detected by JVM
+
+Why exception handling ?
+1. To continue with the program execution , even after run time errs(eg :invalid inputs,B.L failures,validation failures, file not found, invalid casting....)
+2. To separate B.L (try block) from error handling logic(catch)
+3. To avoid un necessary checking .
+
+Flow of exception handling
+Eg. Trigger : Run time error -->  int div by 0 ---> 
+
+JVM chks ---
+
+
+syntax of "throw" keyword
+throw Throwable instance;
+eg : In case of int div by 0 , JVM calls
+throw new ArithmeticException("/ by 0");
+
+Currently used by JVM to raise system excs(eg : AE, AOBExc, NPE,ClassCastExc.....,IOException, SocketExc, SQLExc....)
+Later , prog will use the "throw" keyword to raise custom excs.
+
+
+Inheritance hierarchy of exc handling classes
+
+
+try-catch syntax. Solve which ones are legal ?
+try {....} catch (AE e ){..} : legal
+try {....} : illegal
+try {....} catch (AE e ){..}  catch (NPE e) {..} catch(Exception e) {....} : legal
+try {....} catch(Exception e) {....} catch (AE e ){..}  catch (NPE e) {..}  : illegal
+try {....} catch (AE | NPE e ){..}  catch(Exception e) {....} : legal
+try {....} finally {...} : legal
+try {....} catch(Exc e){...} finally {...} : legal
+
+checked vs un checked exceptions
+who doesn't differentiate between checked vs un checked exceptions --JVM
+(Meaning : If there exists un handled chked or un chked exc : JVM aborts code)
+
+who differentiates n how ? :  javac
+Javac forces handling of the chked excs n does not force the handling of the un chked excs.
+ 
+
+2 ways of satisfying the compiler : 
+Actual handling : try-catch
+Exc handling delegation :  throws
+
+throw vs throws
+throw :keyword used to  raise the  exception(JVM : system/built-in excs , Prog : custom exc), appears in method def.
+syntax : throw Throwable instance;
+
+throws : meant for javac , appears in method declaration 
+eg : public void show() throws IOException,InterruptedException
+{
+ ......
+}
+Meaning : show() : may throw the exc(possibility) , curnt method is NOT handling the exc/s
+so its' caller should handle.
+
+When is adding throws keyword mandatory : un handled(no try-catch) n checked exc
+o.w : javac err
+
+
+finally : always executed(i.e in case of no exc as well as excs/ method rets) except : JVM termination(System.exit(0))
+typical use case  : cleaning up of non java resources(eg : File handle, socket , db connection, Std in)
+------------------------Revision Over ---------------------------
+
+OR
+try-with-resources
+eg : try(Scanner sc=new Scanner(System.in);
+ Connection cn=....;//DB connection opening
+FileInputStream in=....;//opening bin file 
+)
+{
+.....
+} //in.close,cn.close ,sc.close()
+catch(Exception e)
+{
+ ....
+}
+Can you open ANY Resource(class instance) using try-with-resources block 's header? 
+
+i/f method
+public void close() throws Exception
+---------------------------------------
+
+Custom exceptions
+objective : Accept speed of a vehicle from user (scanner) --highway
+min speed : 30
+max speed : 80
+
+In case of speed outside the range --Prog will have to detect the err --create instance of user defined exc class --explicitly throw custom exc to the code. The alteration in flow will be managed by JVM.
+
+
+Steps
+1.Create custom exception class : extends Throwable/Error/Exception/RuntimeExc....
+eg : public class SpeedOutOfRangeException extends Exception{
+
+}
+1.1  Add parameterized constr : to init err mesg
+
+2. Create a separate class  eg :  ValidationRules
+add a static method for validation the speed
+
+3. Create Tester : UI --scanner --accept the speed n simply call validateSpeed of the SpeedUtils  class
+-------------------------
+
+4. String Handling
+4.1 Immutability of strings
+4.2 == vs equals
+4.3 literal vs non literal string
+4.4 API
+
+----------------------------Pending-----------------------------
+5. Date Time Handling 
+refer : readme
+
+6. Wrapper classes
+refer : readme
+
+7. Enumeration in java
+refer : readme
+
+
+
+
