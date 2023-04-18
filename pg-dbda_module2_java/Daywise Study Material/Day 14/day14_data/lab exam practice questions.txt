@@ -1,0 +1,99 @@
+1.
+Create a java application for a bookshop using suitable data structures.
+
+1. Core class in package --com.app.core
+Book --Data members
+title(Primary Key),author,price,publishDate(java.util.Date)
+
+Generate suitable constructor, toString.
+
+2. Create Custom exception class in package -- cust_exc
+BookHandlingException
+
+3. Create a tester -- BookShop in package -- tester
+
+3.1 Create  suitable data structure (Suggestion :  hashmap) to store available book details . Create scanner.
+
+3.2 Add 4 books (hard coded details) to the map.
+
+Create User's empty cart (Think of a suitable data structure . 
+Suggestion : ArrayList<Book> )
+
+Supply following options
+
+1. Display all books from the shop.
+NOTE : Individual book details should be displayed on separate lines.
+
+2. Add Book to The Cart
+I/P : Book Title 
+O/P : Message book added to the cart or throw custom exception , if book title is not available in the shop.
+
+3. Show User Cart Contents
+Display user cart contents.
+NOTE : Individual book details should be displayed on separate lines.
+
+4. Remove Book From the cart
+I/P : Book Title 
+O/P : Message book removed from the cart or throw custom exception , if book title is not available in the cart.
+
+5. Check out (Exit)
+Should display Total cart value & titles of the books purchased by the user(on different lines) .
+ & terminate.
+------------------------------------
+2. Write a  Program to add product in product list. and store them in a binary file using serialization .
+
+   Product Id- int  Auto increment.
+   Productname-String,
+   ProductPrice-double,
+   expiryDate-Date or LocalDate
+   Constraints:- (validation rules)
+                 1. Prdoduct should be added if & only if  its expiry date is greater than current date.
+                2. Do not allow duplicate product(product with same name,and price will not be allowed)
+	In Tester application : 
+                 Retieve the products into a suitable collection when you start the application
+Options :
+	   1. Display product list.
+                 2. Add new product (check for duplication as per the rule)
+	   3. Exit (save suitable collection of products in bin file using serialization)
+               
+                 Use centralized exception handling approach.
+---------------------------------
+3. 
+Create a menu driven application "AddressBook" to store address of your friends & relatives.
+You can create class Address with attributes like Email, Name, Date of Birth, Phone Number, street, city etc. Email should be unique for each address.
+You can use suitable data structure to store data in memory.
+
+Following functionalities are expected -
+
+a. Add New Address                  
+b. Search Address by Email           
+c.  Search Address by Date of Birth   
+d. Display All Addresses             
+e.  Delete address by Email           
+f.  Sort by Name                      
+g.  Sort by Date of Birth            
+
+---------------------------------
+4.  Write a program to Add Players in IPL team and store then in a binary file using serialization & retrieve using de-serilaization.
+   
+   PlayerName-String
+   PlayerId- Unique
+   Ranking- int.
+   Points- double
+
+   Constraints- 
+                Each Player's ranking should be between 1-5 while adding player in a team (suitable collection of players)
+                duplicate entry of player with same name & points is not allowed.
+                minimum 5 players and  Maximum 7 players is allowed.
+
+    From Tester application
+ 
+                 Retieve the players information  into a suitable collection when you start the application.
+Options : 
+  
+1. User Should be able to Populate IPL Players in a team with player details.          
+ 2. Display IPL Team (suitable collection of players)
+3. Remove the player by its id.
+4. Exit :  save player collection in bin file using serialization.
+
+ Use centeralized exception handling approach.

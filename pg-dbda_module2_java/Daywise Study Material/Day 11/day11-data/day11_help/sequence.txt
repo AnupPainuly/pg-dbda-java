@@ -1,0 +1,165 @@
+Revise 
+Showroom management system using ArrayList
+
+Objective 
+
+1. Create empty AL to store vehicles in a showroom
+
+2. Accept  vehicle details from user n store it in AL(along with validation rules)
+
+2.5 After testing vehicle registration in showroom , add sample data to store 5 vehicles in the showroom.(for quick testing)
+
+3. Display all vehicle details
+Using for-each & also using Iterator(later)
+
+4. Fetch Vehicle details from AL
+i/p : PK (chasis no)
+o/p : in case of success : display vehicle details o.w throw custom exception
+API : indexOf , get
+
+5. Update Vehicle price
+i/p : chasis no & new price
+o/p : in case of success : update vehicle details o.w throw custom exception
+
+Complete pending objectives
+
+6. Delete vehicle details
+i/p : chasis no
+
+7. Apply discount to all vehicles manufactured before a specific date
+i/p :  date n discount
+
+
+Sorting in Java 
+
+8. Sort the vehicles as per asc order of chasis no (use natural ordering)
+
+9. Sort the vehicles as per desc  order of  price (use custom ordering)
+
+10. Sort the vehicles as per date n desc  order of  price (use custom ordering)
+
+0. Exit
+
+
+Sets Overview 
+refer to diagram
+
+Maps Overview
+refer to diagram
+Objective : Save student details in the Map
+Data : prn (string) ,complete name, marks
+Key : String
+Value : Student
+
+
+
+
+
+
+
+
+Additional details in generic syntax
+
+ ? , extends , super
+
+? : wild card ( unbounded wild card) => un known type
+ ? can be replaced by ANY reference type in java.
+eg : Collections.shuffle(List<?> list)
+
+extends : represents upper bound in generic syntax
+super : represents lower bound in generic syntax
+
+? extends T => represents T or any of it's sub type
+
+? super T => represents T or any of it's super type.
+
+
+
+T : Emp 
+AL<? extends Emp> list = ????
+What all are legal options of RHS ?
+1. AL<Emp> : 
+2. AL<Mgr>
+3. AL<Worker>
+4. AL <SalesMgr>
+5. AL <Object>
+6. AL<Fruit>
+7. AL<Vehicle>
+Ans : 
+
+super : represents lower bound in generics
+? super T => T or it's super types
+
+eg
+AL<? super Mgr> list = ????
+What all are legal options of RHS ?
+1. AL<Emp> : 
+2. AL<Mgr>
+3. AL<Worker>
+4. AL <SalesMgr>
+5. AL <Object>
+6. AL<Fruit>
+7. AL<Vehicle>
+Ans : 
+
+ ArrayList constructor
+public ArrayList​(Collection<? extends E> c)
+Constructs a list containing the elements of the specified collection, in the order they are returned by the collection's iterator.
+
+What will happen ? (javac err or no err)
+
+ArrayList<Mgr> mgrs=new AL<>();
+mgrs.add(m1);mgrs.add(m2);mgrs.add(m3);
+
+HashSet<TempWorker> tempWorkers=new HS<>();
+tempWorkers.add(w1);tempWorkers.add(w2);tempWorkers.add(w3);
+
+LinkedList<Object> objs=new LL<>();
+objs.add("test");objs.add(1234); objs.add(new Date());
+
+ArrayList<Emp> emps=??????????????????
+1. new AL<>(mgrs);
+2. new AL<>(tempWorkers);
+3. new AL<>(objs);
+Ans : 
+
+eg of super : 
+Collections.sort(List,Comparator)
+
+
+Enter functional programming in Java
+Refer :
+Java 8 new features
+Functional programming readme
+Regarding lambdas
+
+Solve :  
+
+1. Iterable : forEach 
+Display all products (from a product list)
+
+2. Collection : removeIf
+Remove the products of a specific category
+
+3. Map : forEach
+Display all products (from a product)
+
+4. Sorting : custom ordering
+4.1 Sort the products as per product id
+4.2 Sort the products as per date
+
+5 Use Function literal
+
+
+2. Using above API(higher order funcs) , can you chain multiple operations like sorting & displaying the sorted data ? NO
+OR
+Filter the elements n display filtered list. 
+Objective : Accept product category from user
+remove all products from specified category n display remaining list
+
+3. Enter Java 8 Streams (Functional Streams)
+3.1 Refer to <streams> : diagrams
+collections vs streams n streams basics
+3.2 Refer to "streams_sequence"
+
+

@@ -2,8 +2,6 @@ package com.custom.tester;
 
 import com.banking.BankAccount;
 import com.banking.utils.Validation;
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Tester {

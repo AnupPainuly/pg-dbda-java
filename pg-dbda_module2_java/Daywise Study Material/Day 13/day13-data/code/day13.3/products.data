@@ -1,0 +1,3 @@
+Product [productId=60, name=Sunflowe_Oil, desc=Healthy Oil, quantity=50, price=240.0, productCategory=OIL, manufactureDate=2022-01-20]
+Product [productId=70, name=Gemini_Oil, desc=Vegetable Oil, quantity=80, price=220.0, productCategory=OIL, manufactureDate=2022-01-30]
+Product [productId=15, name=Watermelon, desc=Great Fruit, quantity=60, price=70.0, productCategory=FRUITS, manufactureDate=2022-05-04]
