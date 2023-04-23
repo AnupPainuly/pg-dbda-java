@@ -1,0 +1,22 @@
+Enter Multi threading in Java 
+
+process based vs thread based Multi tasking
+Thread state transitions
+Java API for multi threading
+
+Objectives
+1. Testing concurrency --using extends Thread approach
+2. Testing concurrency --using implements Runnable approach
+3. join API
+
+4. Apply concurrency + functional programming
+
+--------------------------Pending-------------------
+5. Apply concurrency to Collections n I/O
+Using multiple threads , print product information in 3 different text files , sorted as per 
+price , date , category
+6. Synchronization 
+issues n solution
+7. ITC
+8. Executor framework overview
+
