@@ -37,9 +37,9 @@ public class Tester {
 				System.out.println("**************************************");
 
 				try {
-					//					int choice = sc.nextInt();
-					/*nextLine() method of Scanner skips the console input, when we use it after next(), nextInt() and all nextXXX() methods.*/
-					//					sc.nextLine(); //why the hell are you needed? arggh
+					/*int choice = sc.nextInt();
+					 *nextLine() method of Scanner skips the console input, when we use it after next(), nextInt() and all nextXXX() methods
+					 *sc.nextLine();why the hell are you needed? arggh*/
 					switch (sc.nextInt()) {
 					case 1://print available books in the shop
 						System.out.println("Available books:");
